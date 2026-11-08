@@ -1,0 +1,1232 @@
+<!doctype html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="description" content="Krankenkasse и Haftpflicht по-человечески: что обязательно, что нужно и где ошибаются русскоязычные.">
+<meta property="og:title" content="Страховки в Германии">
+<meta property="og:description" content="Krankenkasse и Haftpflicht по-человечески: что обязательно, что нужно и где ошибаются русскоязычные.">
+<meta name="theme-color" content="#E4E4E1">
+<link rel="icon" href="media/logo.webp">
+<style>:root{padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}body{margin:0}</style>
+<title>Страховки в Германии</title>
+<link rel="preload" href="assets/fonts/manrope-cyrillic.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="assets/fonts/pangolin-cyrillic.woff2" as="font" type="font/woff2" crossorigin>
+<style>@font-face {font-family: 'Manrope';font-style: normal;font-weight: 200 800;font-display: swap;src: url(assets/fonts/manrope-cyrillic.woff2) format('woff2');unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;}
+@font-face {font-family: 'Manrope';font-style: normal;font-weight: 200 800;font-display: swap;src: url(assets/fonts/manrope-latin.woff2) format('woff2');unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;}
+@font-face {font-family: 'Pangolin';font-style: normal;font-weight: 400;font-display: swap;src: url(assets/fonts/pangolin-cyrillic.woff2) format('woff2');unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;}
+@font-face {font-family: 'Pangolin';font-style: normal;font-weight: 400;font-display: swap;src: url(assets/fonts/pangolin-latin.woff2) format('woff2');unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;}
+</style>
+<script defer src="assets/gsap-bundle.min.js"></script>
+
+<style>
+/* Layout: soft grey rounded sheets on a faint grid, a thick blue ribbon behind real objects, red pills. */
+:root{
+  --red:#F01010;--red2:#D80C0C;--blue:#1726CC;--blue2:#121EA8;
+  --bg:#FAFAFA;--p:#F1F1F1;--p2:#E6E6E6;--wh:#fff;--ink:#222226;--mu:#6B6B72;--line:#ECECEC;--vbg:#FFE3E3;
+  --head:Manrope,system-ui,-apple-system,'Segoe UI',sans-serif;
+  --hand:Pangolin,'Comic Sans MS',cursive;
+  --r:52px;--r2:34px;--r3:22px;--g:clamp(16px,2.2vw,32px);
+  --sh:0 16px 40px rgba(25,25,35,.08);
+}
+*,*::before,*::after{box-sizing:border-box}
+html{scroll-behavior:smooth;scroll-padding-top:30px;-webkit-text-size-adjust:100%;background:var(--bg)}
+body{margin:0;background-color:var(--bg);background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='140' height='140'%3E%3Cpath d='M139.5 0v140M0 139.5h140' stroke='%23F0F0F0' fill='none'/%3E%3C/svg%3E");color:var(--ink);font:400 18px/1.45 var(--head);hyphens:auto;-webkit-hyphens:auto;-webkit-font-smoothing:antialiased}
+main{overflow-x:clip}
+h1,h2,h3,h4,p,ul,figure{margin:0;padding:0}
+ul{list-style:none}
+img,video,svg{display:block;max-width:100%}
+img{height:auto}
+a{color:inherit;text-decoration:none}
+button{font:inherit;color:inherit;background:none;border:0;padding:0;cursor:pointer}
+:focus-visible{outline:3px solid var(--blue);outline-offset:3px;border-radius:10px}
+.ic{width:1em;height:1em;fill:none;stroke:currentColor;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;flex:none}
+.wrap{max-width:1180px;margin:0 auto;position:relative}
+.sec{margin:var(--g);position:relative}
+.sheet{background:var(--p);border-radius:var(--r);position:relative;overflow:hidden;isolation:isolate;padding:clamp(52px,6.5vw,96px) clamp(18px,4.4vw,64px)}
+.sheet.gridb{background-color:var(--p);background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='140' height='140'%3E%3Cpath d='M139.5 0v140M0 139.5h140' stroke='%23E8E8E8' fill='none'/%3E%3C/svg%3E")}
+.plain{padding:clamp(52px,6.5vw,96px) clamp(10px,3vw,44px)}
+.h{font:300 clamp(38px,5.5vw,80px)/1.04 var(--head);letter-spacing:-.045em;hyphens:manual;-webkit-hyphens:manual;text-wrap:balance}
+.h b{font-weight:800}
+.h.c{text-align:center}
+.h .wd{display:inline-block}
+.hw{font-family:var(--hand);font-weight:400;color:var(--blue);-webkit-text-stroke:1.2px var(--blue);letter-spacing:.01em;display:inline-block}
+.tick{display:inline-flex;align-items:center;justify-content:center;width:1.04em;height:1.04em;border-radius:.24em;background:var(--red);color:#fff;font-size:.62em;vertical-align:.1em;margin:0 .14em}
+.tick.bl{background:var(--blue)}
+.tick .ic{font-size:.56em}
+.sub{font-size:clamp(18px,1.55vw,22px);line-height:1.4;color:var(--mu);margin-top:18px;text-wrap:pretty}
+.sub.c{text-align:center;margin-inline:auto;max-width:44ch}
+.h3{font:800 clamp(24px,2.3vw,32px)/1.12 var(--head);letter-spacing:-.03em;hyphens:manual;-webkit-hyphens:manual;text-wrap:balance}
+.v{display:inline-block;font-weight:700;color:var(--red2);background:var(--vbg);padding:.02em .36em;border-radius:.42em;white-space:nowrap}
+.src{display:inline-flex;align-items:center;gap:6px;font-size:13.5px;color:var(--mu);font-weight:600;transition:color .2s;hyphens:none}
+.src:hover{color:var(--blue)}
+.note{font-size:14px;color:var(--mu);line-height:1.45;margin-top:18px;text-wrap:pretty}
+.note.c{text-align:center}
+.de{font-weight:700}
+.ribbon{position:absolute;z-index:-1;pointer-events:none;overflow:visible}
+.ribbon path{fill:none;stroke:var(--blue);stroke-linecap:round;stroke-linejoin:round}
+.o{display:block;height:auto;filter:drop-shadow(0 16px 16px rgba(25,25,35,.16));pointer-events:none}
+
+/* red pill + circle */
+.cta{display:inline-flex;align-items:center;gap:0;transition:translate .22s}
+.cta b{display:inline-flex;align-items:center;justify-content:center;min-height:74px;padding:0 44px;border-radius:40px;background:var(--red);color:#fff;font:700 21px/1 var(--head);letter-spacing:-.02em;transition:background .22s;hyphens:none}
+.cta i{display:flex;align-items:center;justify-content:center;width:74px;height:74px;border-radius:50%;background:var(--red);color:#fff;font-size:24px;transition:background .22s,translate .25s,rotate .25s}
+.cta:hover b,.cta:hover i{background:var(--red2)}
+.cta:hover i{translate:6px 0;rotate:45deg}
+.cta.sm b{min-height:56px;padding:0 26px;font-size:16px}
+.cta.sm i{width:56px;height:56px;font-size:19px}
+.pill{display:inline-flex;align-items:center;justify-content:center;gap:9px;min-height:48px;padding:0 20px;border-radius:30px;font-weight:600;font-size:16px;line-height:1;transition:background .2s,color .2s,translate .2s;hyphens:none}
+.pill:hover{translate:0 -2px}
+.pill.tg{box-shadow:inset 0 0 0 1.5px #5AA7DC;color:#3B8FCC}
+.pill.tg:hover{background:#E8F3FB}
+.pill.r{background:var(--red);color:#fff}
+.pill.r:hover{background:var(--red2)}
+.burger{width:48px;height:48px;border-radius:50%;background:#fff;display:flex;align-items:center;justify-content:center;font-size:22px;transition:background .2s,translate .2s}
+.burger:hover{background:var(--p2);translate:0 -2px}
+
+/* hero */
+.hero{background:var(--p);border-radius:var(--r);position:relative;overflow:hidden;isolation:isolate;margin:var(--g);min-height:min(790px,96svh)}
+.hd{display:flex;align-items:center;justify-content:space-between;gap:14px;padding:30px clamp(18px,7%,92px) 0;position:relative;z-index:6}
+.logo{display:flex;align-items:center;gap:14px;transition:opacity .2s}
+.logo:hover{opacity:.7}
+.logo img{width:46px;height:46px;border-radius:12px}
+.logo b{display:block;font:800 25px/.95 var(--head);letter-spacing:-.03em}
+.logo em{font:400 20px/.9 var(--hand);color:var(--blue);-webkit-text-stroke:.5px var(--blue)}
+.logo small{font-size:15px;line-height:1.2;color:var(--ink);margin-left:6px;max-width:190px}
+.hd-r{display:flex;align-items:center;gap:10px}
+.hero-rb{left:-4%;top:6%;width:44%;height:100%}
+.hero-im{position:absolute;left:7%;bottom:0;width:min(37%,520px);z-index:2}
+.hero-im img{width:100%;height:auto;display:block}
+.hero-tx{position:relative;z-index:4;margin-left:50%;padding:clamp(34px,5vw,80px) clamp(18px,7%,92px) 70px 0}
+.hero h1{font:300 clamp(46px,5.9vw,86px)/1.03 var(--head);letter-spacing:-.05em;hyphens:manual;-webkit-hyphens:manual}
+.hero h1 b{font-weight:800}
+.hero h1 .hw{font-size:.86em;margin-top:8px;white-space:nowrap}
+.free{display:inline-flex;align-items:center;gap:12px;font-size:17px;line-height:1.2;letter-spacing:-.01em;vertical-align:middle;font-weight:400;margin-left:14px}
+.free i{display:flex;align-items:center;justify-content:center;width:62px;height:62px;border-radius:50%;background:var(--red);color:#fff;font:800 15px/1 var(--head);font-style:normal;letter-spacing:-.02em;text-align:center}
+.lede{display:flex;gap:18px;align-items:flex-start;font-size:clamp(19px,1.6vw,23px);line-height:1.32;margin:32px 0 40px;max-width:520px;text-wrap:pretty}
+.lede::before{content:'';flex:none;width:34px;height:2px;background:var(--ink);margin-top:14px}
+.hero-fl{position:absolute;right:-1%;bottom:-6%;width:clamp(120px,17vw,250px);z-index:3}
+
+/* menu overlay (close uses the standard icon) */
+.menu{position:fixed;inset:0;z-index:70;background:rgba(20,20,30,.34);display:none;align-items:flex-start;justify-content:center;padding:var(--g)}
+.menu.open{display:flex}
+.menu-c{background:var(--p);border-radius:var(--r2);width:min(760px,100%);padding:clamp(24px,4vw,46px);position:relative}
+.menu-x{position:absolute;right:18px;top:18px;width:48px;height:48px;border-radius:50%;background:#fff;display:flex;align-items:center;justify-content:center;font-size:22px;transition:background .2s}
+.menu-x:hover{background:var(--p2)}
+.menu ul{margin-top:8px}
+.menu li a{display:flex;gap:14px;align-items:center;padding:9px 0;font:300 clamp(26px,3.4vw,42px)/1.12 var(--head);letter-spacing:-.04em;transition:color .2s,translate .2s;hyphens:manual;-webkit-hyphens:manual}
+.menu li a::before{content:'';flex:none;width:9px;height:9px;border-radius:50%;background:var(--red)}
+.menu li a:hover{color:var(--red);translate:6px 0}
+
+/* chat story */
+.story{display:grid;grid-template-columns:1.15fr .85fr;gap:clamp(20px,4vw,60px);align-items:start}
+.chat{display:grid;gap:14px;margin-top:38px;max-width:640px}
+.bub{display:flex;gap:14px;align-items:flex-end}
+.bub .av{flex:none;width:56px;height:56px;border-radius:50%;background:#fff;display:flex;align-items:center;justify-content:center;font:800 19px/1 var(--head);box-shadow:inset 0 0 0 3px var(--red)}
+.bub .av img{width:100%;height:100%;border-radius:50%;object-fit:cover}
+.bub .m{background:#E4E4E4;border-radius:24px 24px 24px 6px;padding:16px 20px;line-height:1.36;max-width:78%;transition:translate .2s;text-wrap:pretty}
+.bub .m:hover{translate:0 -2px}
+.bub.me{flex-direction:row-reverse}
+.bub.me .av{box-shadow:inset 0 0 0 3px var(--blue);overflow:hidden}
+.bub.me .m{background:var(--blue);color:#fff;border-radius:24px 24px 6px 24px}
+.bub .m .ru{display:block;font-size:15.5px;opacity:.72;margin-top:3px}
+.bub .row{display:flex;align-items:center;gap:12px}
+.typing{display:flex;gap:6px;padding:4px 2px}
+.typing i{width:9px;height:9px;border-radius:50%;background:var(--mu);animation:ty 1s infinite alternate}
+.typing i:nth-child(2){animation-delay:.2s}.typing i:nth-child(3){animation-delay:.4s}
+@keyframes ty{from{translate:0 2px}to{translate:0 -3px}}
+.say{width:42px;height:42px;border-radius:50%;background:var(--blue);color:#fff;display:inline-flex;align-items:center;justify-content:center;font-size:18px;flex:none;transition:scale .2s,background .2s}
+.say:hover{scale:1.1;background:var(--red)}
+.say.on{background:var(--red)}
+.say.w{background:#fff;color:var(--blue)}
+.no-tts .say{display:none}
+.side{position:relative;min-height:540px}
+.side .o{position:absolute}
+.fcard{position:absolute;background:#fff;border-radius:var(--r3);padding:16px 18px;box-shadow:var(--sh);font-size:16px;line-height:1.3;transition:translate .2s;max-width:260px}
+.fcard:hover{translate:0 -3px}
+.fcard b{display:block;font-weight:800;font-size:18px}
+.punch{font:300 clamp(30px,3.6vw,52px)/1.08 var(--head);letter-spacing:-.04em;text-align:center;margin-top:48px;hyphens:manual;-webkit-hyphens:manual;text-wrap:balance}
+.punch b{font-weight:800}
+
+/* group cards (shots "группы") */
+.grp{display:grid;grid-template-columns:1fr 1fr;gap:18px;margin-top:36px}
+.gl,.gr{background:#FAFAFA;border-radius:var(--r2);position:relative;overflow:hidden;transition:translate .25s,box-shadow .25s}
+.sheet .gl,.sheet .gr{background:#FAFAFA}
+.plain .gl,.plain .gr{background:var(--p)}
+.gl:hover,.gr:hover{translate:0 -4px;box-shadow:var(--sh)}
+.gl{min-height:440px;display:flex;flex-direction:column;align-items:center;padding:28px 18px 0}
+.tag{display:inline-flex;align-items:center;justify-content:center;background:var(--red);color:#fff;border-radius:40px;min-height:76px;padding:0 34px;font:600 clamp(19px,1.8vw,24px)/1.1 var(--head);letter-spacing:-.02em;text-align:center;z-index:2;hyphens:none}
+.tag.bl{background:var(--blue)}
+.gl .stage{position:relative;flex:1;width:100%;min-height:300px}
+.gl .stage .o{position:absolute}
+.gr{padding:clamp(24px,3vw,44px)}
+.gr h3{font:800 clamp(28px,2.8vw,40px)/1.08 var(--head);letter-spacing:-.035em;margin-bottom:18px;hyphens:manual;-webkit-hyphens:manual}
+.dots{display:grid;gap:12px}
+.dots li{display:flex;gap:13px;line-height:1.36;font-size:18px;text-wrap:pretty}
+.dots li::before{content:'';flex:none;width:7px;height:7px;border-radius:50%;background:var(--red);margin-top:10px}
+.dots.bl li::before{background:var(--blue)}
+.in{background:#fff;border-radius:var(--r3);padding:20px 22px;margin-top:22px;line-height:1.36;font-size:17px}
+.in p+p{margin-top:8px}
+.exs{display:grid;gap:9px;margin-top:14px}
+.ex{display:flex;align-items:center;gap:13px;background:var(--p);border-radius:16px;padding:10px 12px;transition:background .2s,translate .2s}
+.ex:hover{background:var(--p2);translate:0 -2px}
+.in .ex{background:var(--bg)}
+.ex p{line-height:1.25;font-size:16.5px}
+.ex .ru{font-size:15px;color:var(--mu);margin-top:2px}
+
+/* number cards */
+.g3{display:grid;grid-template-columns:repeat(3,1fr);gap:22px;margin-top:44px}
+.card{background:var(--bg);border-radius:var(--r2);padding:30px 22px 0;text-align:center;overflow:hidden;display:flex;flex-direction:column;align-items:center;transition:translate .25s,box-shadow .25s;min-height:380px}
+.plain .card{background:var(--p)}
+.card:hover{translate:0 -5px;box-shadow:var(--sh)}
+.card h3{font:800 clamp(30px,3.1vw,44px)/1.05 var(--head);letter-spacing:-.04em;hyphens:manual;-webkit-hyphens:manual}
+.card p{margin-top:10px;line-height:1.32;font-size:17.5px;text-wrap:balance}
+.card .src{margin-top:8px}
+.card .o{margin:auto auto -12px;width:min(68%,230px)}
+
+/* builder */
+.tabs{display:inline-flex;border-radius:40px;box-shadow:inset 0 0 0 2px var(--red);overflow:hidden;background:#fff}
+.tabs button{min-height:68px;padding:0 clamp(18px,3.4vw,46px);font:600 clamp(17px,1.6vw,21px)/1 var(--head);letter-spacing:-.02em;color:var(--ink);border-radius:40px;transition:background .2s,color .2s;hyphens:none}
+.tabs button:hover{background:var(--vbg)}
+.tabs button.on{background:var(--red);color:#fff}
+.tabs-w{display:flex;justify-content:center;margin-top:30px}
+.bw{display:flex;justify-content:center;align-items:center;flex-wrap:wrap;gap:12px;margin:38px 0 8px;min-height:120px}
+.blk{display:inline-flex;align-items:center;justify-content:center;min-height:92px;padding:0 26px;border-radius:24px;font:800 clamp(30px,4.2vw,58px)/1 var(--head);letter-spacing:-.04em;background:#fff;color:var(--ink);hyphens:none;-webkit-hyphens:none;transition:translate .2s}
+.blk:hover{translate:0 -3px}
+.blk.last{background:var(--blue);color:#fff}
+.blk.art{background:var(--red);color:#fff}
+.plus{font:300 clamp(30px,4vw,54px)/1 var(--head);color:var(--mu)}
+.bres{text-align:center;font:300 clamp(34px,5vw,72px)/1.05 var(--head);letter-spacing:-.04em;margin-top:18px;hyphens:none;-webkit-hyphens:none;overflow-wrap:anywhere}
+.bres b{font-weight:800;color:var(--blue)}
+.bres em{font-style:normal;font-weight:800;color:var(--red)}
+.bcap{text-align:center;font-size:clamp(18px,1.6vw,22px);line-height:1.36;margin:12px auto 0;max-width:48ch;text-wrap:pretty}
+
+/* phrase */
+.phr{display:flex;flex-wrap:wrap;justify-content:center;gap:10px;margin:32px 0 10px;min-height:74px}
+.pw{display:inline-flex;align-items:center;justify-content:center;min-height:62px;padding:0 20px;border-radius:18px;font:700 clamp(22px,2.5vw,32px)/1 var(--head);letter-spacing:-.03em;color:#fff;background:var(--ink);hyphens:none;-webkit-hyphens:none;transition:translate .2s}
+.pw:hover{translate:0 -3px}
+.pw.vb{background:#8A8A92}.pw.a{background:var(--blue)}.pw.d{background:var(--red)}.pw.k{background:#fff;color:var(--ink)}
+.leg{display:flex;flex-wrap:wrap;gap:8px 18px;justify-content:center;font-size:14.5px;margin-top:14px;color:var(--mu)}
+.leg span{display:inline-flex;align-items:center;gap:7px}
+.leg i{width:15px;height:15px;border-radius:5px;display:block}
+
+/* doctor steps */
+.st4{display:grid;grid-template-columns:repeat(4,1fr);gap:16px;margin-top:40px;position:relative}
+.sc{background:#fff;border-radius:var(--r3);padding:20px;transition:translate .22s,box-shadow .22s;display:flex;flex-direction:column;gap:10px}
+.plain .sc{background:var(--p)}
+.sc:hover{translate:0 -4px;box-shadow:var(--sh)}
+.sc b.n{display:flex;align-items:center;justify-content:center;width:46px;height:46px;border-radius:50%;background:var(--blue);color:#fff;font:800 20px/1 var(--head)}
+.sc h3{font:800 23px/1.1 var(--head);letter-spacing:-.03em;hyphens:manual;-webkit-hyphens:manual}
+.sc .o{width:96px;margin:0 auto}
+.sc p{font-size:16px;line-height:1.3}
+.sc .ru{color:var(--mu);font-size:14.5px}
+.sc .deL{font-weight:700;font-size:16px}
+.sc .say{align-self:flex-start;margin-top:auto}
+
+/* sticky damage flow */
+.fl{height:400vh;position:relative}
+.fl-s{position:sticky;top:18px;height:calc(100svh - 36px);min-height:560px;display:flex;align-items:center}
+.fl-g{display:grid;grid-template-columns:1fr 1fr;gap:clamp(20px,4vw,60px);align-items:center;width:100%}
+.fl-n{display:flex;align-items:center;justify-content:center;width:80px;height:80px;border-radius:50%;background:var(--red);color:#fff;font:800 36px/1 var(--head);font-variant-numeric:tabular-nums}
+.fl-h{font:800 clamp(36px,4.6vw,66px)/1.04 var(--head);letter-spacing:-.045em;margin-top:18px;min-height:2.1em;hyphens:manual;-webkit-hyphens:manual;text-wrap:balance}
+.fl-p{font-size:clamp(18px,1.6vw,22px);line-height:1.36;color:var(--mu);margin-top:8px;min-height:4.1em;max-width:32ch;text-wrap:pretty}
+.fl-bar{height:6px;background:var(--p2);border-radius:6px;overflow:hidden;margin-top:18px;max-width:380px}
+.fl-bar i{display:block;height:100%;background:var(--blue);transform:scaleX(0);transform-origin:left}
+.fl-c{background:var(--p);border-radius:var(--r2);position:relative;height:clamp(360px,60svh,560px);overflow:hidden;display:flex;align-items:center;justify-content:center}
+.fl-c .o{width:min(62%,340px)}
+.fl-say{position:absolute;left:18px;right:18px;bottom:18px}
+.fl-say .ex{background:#fff}
+
+/* errors */
+.ec{background:var(--bg);border-radius:var(--r3);padding:24px;display:flex;flex-direction:column;transition:translate .22s,box-shadow .22s}
+.plain .ec{background:var(--p)}
+.ec:hover{translate:0 -4px;box-shadow:var(--sh)}
+.ec-sw{display:grid;font:800 clamp(24px,2.3vw,31px)/1.1 var(--head);letter-spacing:-.03em;min-height:2.3em;hyphens:none;-webkit-hyphens:none}
+.ec-sw span{grid-area:1/1;transition:opacity .35s,translate .35s;text-wrap:balance}
+.ec-sw .bad{color:#A0A0A8;text-decoration:line-through;text-decoration-thickness:3px;text-decoration-color:var(--red)}
+.ec-sw .ok{opacity:0;translate:0 12px;color:var(--blue)}
+.ec.flip .bad{opacity:0;translate:0 -12px}
+.ec.flip .ok{opacity:1;translate:0 0}
+.ec p{font-size:16.5px;line-height:1.36;margin:8px 0 14px;text-wrap:pretty}
+.ec-b{display:flex;align-items:center;gap:12px;margin-top:auto;font-size:15px;line-height:1.25;color:var(--mu)}
+
+/* ticket */
+.tk{display:grid;grid-template-columns:1fr 1fr;gap:16px;margin-top:22px}
+.tk>div{border-radius:var(--r2);box-shadow:inset 0 0 0 1.5px #2a2a2e;padding:clamp(20px,2.6vw,36px);background:rgba(250,250,250,.86);transition:translate .22s,box-shadow .22s;min-width:0}
+.tk>div:hover{translate:0 -3px}
+.tk-t{font:400 clamp(26px,3vw,42px)/1.05 var(--hand);text-align:center;-webkit-text-stroke:.7px var(--ink);hyphens:manual;-webkit-hyphens:manual}
+.bc{display:flex;justify-content:center;gap:2%;height:clamp(90px,10vw,126px);margin-top:18px}
+.bc i{display:block;background:var(--ink);transform-origin:bottom}
+.tk-r{display:flex;align-items:center;justify-content:space-between;gap:14px;flex-wrap:wrap}
+.tk-tag{display:inline-flex;align-items:center;gap:9px;background:var(--blue);color:#fff;border-radius:30px;min-height:54px;padding:0 20px;font-size:18px;font-weight:500;line-height:1.1;hyphens:none}
+.tk-p{font:800 clamp(44px,5.4vw,74px)/1 var(--head);letter-spacing:-.05em;font-variant-numeric:tabular-nums;white-space:nowrap}
+.tk-p s{font-size:.5em;color:var(--mu);font-weight:500;margin-left:10px}
+.tk-c{margin-top:20px}
+input.rg{-webkit-appearance:none;appearance:none;width:100%;height:10px;border-radius:6px;background:var(--p2);cursor:pointer;margin:18px 0 6px}
+input.rg::-webkit-slider-thumb{-webkit-appearance:none;width:34px;height:34px;border-radius:50%;background:var(--red);border:6px solid #fff;box-shadow:0 2px 8px rgba(0,0,0,.25);transition:scale .2s}
+input.rg::-moz-range-thumb{width:22px;height:22px;border-radius:50%;background:var(--red);border:6px solid #fff}
+input.rg:hover::-webkit-slider-thumb{scale:1.14}
+
+/* blue quote + stack */
+.qt{display:grid;grid-template-columns:1fr 1fr;gap:18px;margin-top:0}
+.qb{background:var(--blue);color:#fff;border-radius:var(--r2);padding:clamp(28px,4vw,56px);transition:translate .25s}
+.qb:hover{translate:0 -4px}
+.qb .mk{font:800 96px/.6 Georgia,serif;display:block;height:50px}
+.qb h2,.qb h3{font:400 clamp(30px,3.6vw,52px)/1.12 var(--head);letter-spacing:-.035em;margin-top:6px;hyphens:manual;-webkit-hyphens:manual;text-wrap:balance}
+.qb h2 b,.qb h3 b{font-weight:800}
+.qb p{font:300 clamp(19px,1.9vw,26px)/1.3 var(--head);margin-top:18px;letter-spacing:-.02em;text-wrap:pretty}
+.qb p b{font-weight:700}
+.qs{background:var(--p);border-radius:var(--r2);padding:clamp(20px,3vw,40px);position:relative;overflow:hidden;min-height:420px}
+.plain .qs{background:var(--p)}
+.qs-t{display:flex;flex-wrap:wrap;gap:8px;justify-content:center;position:relative;z-index:3}
+.qs-t span{display:inline-flex;align-items:center;min-height:42px;padding:0 18px;border-radius:30px;box-shadow:inset 0 0 0 1.5px #bbb;color:var(--mu);font-size:15.5px;line-height:1;transition:background .2s,color .2s;hyphens:none}
+.qs-t span.on{background:var(--blue);color:#fff;box-shadow:none;font-weight:700}
+.stack{position:relative;height:clamp(300px,30vw,400px);margin-top:18px}
+.tc{position:absolute;background:#fff;border-radius:20px;box-shadow:var(--sh);padding:14px 16px;width:58%;transition:translate .2s}
+.tc:hover{translate:0 -4px}
+.tc .pl{display:inline-flex;align-items:center;min-height:38px;padding:0 15px;border-radius:24px;background:var(--red);color:#fff;font-weight:600;font-size:15px;line-height:1;hyphens:none}
+.tc .o{width:58%;margin:8px auto 0;filter:none}
+.tc .deL{font-weight:700;font-size:15.5px;margin-top:8px;line-height:1.25}
+
+/* FAQ */
+.fq{display:grid;grid-template-columns:.9fr 1.1fr;gap:clamp(20px,4vw,60px);align-items:start}
+.fq-l{display:grid;gap:12px}
+.fqi{background:var(--blue);color:#fff;border-radius:28px;transition:background .25s,translate .2s}
+.fqi:hover{translate:0 -2px}
+.fqi.open{background:var(--red)}
+.fqi button{display:flex;width:100%;align-items:center;justify-content:space-between;gap:14px;text-align:left;padding:20px 22px 20px 26px;font:600 clamp(18px,1.6vw,22px)/1.2 var(--head);letter-spacing:-.02em;hyphens:manual;-webkit-hyphens:manual}
+.fqi button i{flex:none;width:38px;height:38px;border-radius:50%;background:#fff;color:var(--blue);display:flex;align-items:center;justify-content:center;font-size:20px;transition:rotate .3s,color .25s}
+.fqi.open button i{rotate:180deg;color:var(--red)}
+.fqa{display:grid;grid-template-rows:0fr;transition:grid-template-rows .35s ease}
+.fqi.open .fqa{grid-template-rows:1fr}
+.fqa>div{overflow:hidden}
+.fqa p{padding:0 26px 8px;font-size:17px;line-height:1.38;text-wrap:pretty}
+.fqa p:last-child{padding-bottom:22px}
+.fqa .src{color:rgba(255,255,255,.9)}
+.fqa .src:hover{color:#fff}
+.fqa .v{background:#fff}
+
+/* imac exercise */
+.imac{max-width:980px;margin:40px auto 0}
+.scr{background:#141416;border-radius:26px 26px 0 0;padding:clamp(10px,1.6vw,22px)}
+.scr-in{background:var(--p);border-radius:12px;padding:clamp(14px,2.6vw,38px)}
+.chin{background:#DEDFE1;height:clamp(26px,3.6vw,50px);border-radius:0 0 26px 26px}
+.stnd{width:24%;height:clamp(36px,5.4vw,72px);background:#CFD0D3;margin:0 auto;clip-path:polygon(16% 0,84% 0,100% 100%,0 100%)}
+.modal{background:#fff;border-radius:24px;padding:clamp(18px,3vw,40px);position:relative}
+.modal h3{font:300 clamp(26px,3.2vw,44px)/1.08 var(--head);letter-spacing:-.04em;hyphens:manual;-webkit-hyphens:manual}
+.modal h3 .hw{display:block;font-size:.9em}
+.lett{background:var(--bg);border-radius:18px;padding:clamp(14px,2.4vw,28px);font-size:clamp(18px,1.8vw,23px);line-height:1.85;margin-top:18px;hyphens:none;-webkit-hyphens:none}
+.tok{font-weight:600;padding:2px 9px;border-radius:9px;background:var(--p);line-height:1.2;display:inline-block;transition:background .2s,color .2s,translate .2s}
+.tok:hover{background:var(--vbg);translate:0 -2px}
+.tok.ok{background:var(--blue);color:#fff}
+.tok.nope{background:var(--p2);color:var(--mu)}
+.ex-c{display:flex;align-items:center;justify-content:space-between;gap:14px;flex-wrap:wrap;margin-top:16px}
+.cnt{font:800 34px/1 var(--head);letter-spacing:-.03em}
+.ans{display:flex;gap:11px;align-items:flex-start;background:var(--bg);border-radius:14px;padding:12px 15px;line-height:1.34;font-size:16px;opacity:.55;transition:opacity .3s,background .3s}
+.ans.on{opacity:1;background:var(--vbg)}
+.ans .ic{font-size:20px;margin-top:2px;color:var(--mu)}
+.ans.on .ic{color:var(--red)}
+.anss{display:grid;gap:8px;margin-top:16px}
+
+/* quiz */
+.qz{background:#FAFAFA;border-radius:var(--r2);padding:clamp(20px,3.4vw,46px);max-width:800px;margin:36px auto 0;position:relative;overflow:hidden}
+.qbar{display:flex;gap:6px}
+.qbar i{flex:1;height:7px;border-radius:7px;background:var(--p2)}
+.qbar i.cur{background:var(--ink)}.qbar i.ok{background:var(--blue)}.qbar i.bad{background:var(--red)}
+.qn{font-size:14px;color:var(--mu);margin-top:16px}
+.qq{font:800 clamp(26px,3vw,40px)/1.1 var(--head);letter-spacing:-.04em;margin-top:6px;hyphens:manual;-webkit-hyphens:manual;text-wrap:balance}
+.qq u{text-decoration:none;color:var(--red)}
+.qo{display:grid;gap:9px;margin-top:20px}
+.qo button{min-height:62px;border-radius:20px;background:#fff;font-weight:600;text-align:left;padding:10px 22px;line-height:1.25;display:flex;align-items:center;transition:background .2s,color .2s,translate .2s}
+.qo button:hover:not(:disabled){background:var(--vbg);translate:0 -2px}
+.qo button.ok{background:var(--blue);color:#fff}
+.qo button.bad{background:var(--red);color:#fff}
+.qo button:disabled{cursor:default}
+.qx{display:flex;gap:11px;align-items:flex-start;background:#fff;border-radius:16px;padding:13px 16px;margin-top:14px;line-height:1.36;font-size:16.5px;text-wrap:pretty}
+.qx .ic{font-size:20px;margin-top:2px}
+.qnext{margin-top:16px;display:flex;justify-content:flex-end}
+.conf{position:absolute;left:50%;top:40%;width:11px;height:11px;border-radius:3px;pointer-events:none}
+.score{font:800 clamp(90px,13vw,150px)/.95 var(--head);text-align:center;letter-spacing:-.06em}
+.qres{text-align:center;padding-top:14px}
+
+/* ad */
+.dev{display:grid;grid-template-columns:1fr 1fr;gap:18px;margin-top:36px}
+.dev>div{background:var(--bg);border-radius:var(--r2);padding:clamp(22px,3vw,44px);overflow:hidden;position:relative;transition:translate .25s;display:flex;flex-direction:column}
+.dev .mock{margin:auto 0}
+.plain .dev>div{background:var(--p)}
+.dev>div:hover{translate:0 -3px}
+.dev h3{font:300 clamp(30px,3.6vw,52px)/1.06 var(--head);letter-spacing:-.04em;hyphens:manual;-webkit-hyphens:manual}
+.dev h3 b{font-weight:800}
+.mock{display:block;width:100%;height:auto;mix-blend-mode:multiply}
+.nums{display:grid;grid-template-columns:repeat(3,1fr);gap:18px;margin-top:18px}
+.nb{background:var(--bg);border-radius:var(--r2);padding:30px 14px;text-align:center;display:flex;flex-direction:column;align-items:center;gap:6px;transition:translate .22s}
+.plain .nb{background:var(--p)}
+.nb:hover{translate:0 -4px}
+.nb b{font:800 clamp(48px,6vw,88px)/1 var(--head);letter-spacing:-.05em;display:block;width:100%;text-align:center}
+.nb>span{font-size:17px;line-height:1.25;color:var(--mu)}
+.gal{display:flex;flex-wrap:wrap;justify-content:center;gap:16px;margin-top:30px}
+.gal figure{flex:0 1 calc(33.333% - 11px);background:#fff;border-radius:20px;padding:6px;box-shadow:var(--sh);transition:translate .22s,box-shadow .22s;min-width:0}
+.gal figure:hover{translate:0 -5px;box-shadow:0 24px 44px rgba(25,25,35,.16)}
+.gal img{border-radius:14px;width:100%;height:auto}
+.gal figcaption{font-size:15px;padding:8px 10px 8px;line-height:1.25;font-weight:600;text-wrap:balance}
+.rvw{display:flex;flex-wrap:wrap;gap:18px;justify-content:center;align-items:center;margin-top:30px}
+.rvw img{width:min(100%,520px);height:auto;border-radius:20px;transition:translate .22s}
+.rvw img:hover{translate:0 -4px}
+.rvw img.tall{width:min(100%,330px)}
+.lst{display:grid;grid-template-columns:repeat(4,1fr);gap:14px;margin-top:20px}
+.lst a,.lst div{hyphens:manual;-webkit-hyphens:manual;background:#fff;border-radius:18px;padding:16px 16px;font-weight:700;font-size:17px;line-height:1.2;text-align:center;transition:translate .2s,background .2s;text-wrap:balance}
+.lst div:hover{translate:0 -3px;background:var(--vbg)}
+.etl{display:grid;grid-template-columns:repeat(3,1fr);gap:18px;margin-top:40px}
+.etl .card{min-height:0;padding:26px 16px 24px}
+.etl b.count{font:800 clamp(66px,8vw,112px)/1 var(--head);letter-spacing:-.05em;color:var(--red);display:block;text-align:center;width:100%}
+.etl span.t{font-size:16px;color:var(--mu);line-height:1.25}
+.mods{display:flex;flex-wrap:wrap;gap:10px;justify-content:center;margin-top:20px}
+.mod{display:inline-flex;align-items:center;gap:9px;background:#fff;border-radius:30px;padding:13px 19px;font-weight:600;font-size:16.5px;line-height:1;transition:translate .2s;hyphens:none}
+.mod:hover{translate:0 -3px}
+.mod .ic{font-size:20px;color:var(--red)}
+.pf{background:#141416;border-radius:38px;padding:9px;position:relative;max-width:260px;margin:0 auto;transition:translate .22s}
+.pf:hover{translate:0 -4px}
+.pf video{border-radius:30px;width:100%;height:auto;aspect-ratio:9/19.5;object-fit:cover;background:#fff}
+.phg{display:grid;grid-template-columns:1.9fr .7fr;gap:18px;align-items:center;margin-top:30px}
+.mist{background:#fff;border-radius:var(--r2);padding:clamp(20px,3vw,38px);display:grid;grid-template-columns:1fr 1fr;gap:clamp(16px,3vw,38px);margin-top:18px;position:relative}
+.mq{background:var(--p);border-radius:14px;padding:12px 14px;display:flex;align-items:center;gap:10px;font-size:16px;line-height:1.25;transition:background .25s,color .25s;margin-top:9px}
+.mq .ic{font-size:19px;flex:none}
+.mq.x{background:var(--red);color:#fff}
+.mbox{background:var(--blue);color:#fff;border-radius:22px;padding:20px;min-height:220px}
+.mbox-h{display:flex;align-items:center;justify-content:space-between;gap:10px;font:800 28px/1 var(--head);letter-spacing:-.03em;hyphens:none}
+.mbox-h b{width:50px;height:50px;border-radius:14px;background:var(--red);display:flex;align-items:center;justify-content:center;font:800 27px/1 var(--head)}
+.mb-r{background:rgba(255,255,255,.16);border-radius:12px;padding:10px 12px;font-size:15px;line-height:1.25;margin-top:8px}
+.mflyer{position:absolute;left:0;top:0;width:34px;height:34px;border-radius:10px;background:var(--red);color:#fff;display:flex;align-items:center;justify-content:center;pointer-events:none;font-size:18px;z-index:4}
+.args{display:grid;grid-template-columns:repeat(3,1fr);gap:18px;margin-top:40px}
+.arg{background:var(--bg);border-radius:var(--r3);padding:24px;transition:translate .22s,box-shadow .22s}
+.plain .arg{background:var(--p)}
+.arg:hover{translate:0 -4px;box-shadow:var(--sh)}
+.arg .ii{width:50px;height:50px;border-radius:14px;background:var(--red);color:#fff;display:flex;align-items:center;justify-content:center;font-size:24px;margin-bottom:14px}
+.arg:nth-child(even) .ii{background:var(--blue)}
+.arg h3{font:800 25px/1.12 var(--head);letter-spacing:-.03em;margin-bottom:8px;hyphens:manual;-webkit-hyphens:manual;text-wrap:balance}
+.arg p{font-size:17px;line-height:1.36;text-wrap:pretty}
+.tr{display:grid;grid-template-columns:1fr 1fr;gap:16px;margin-top:18px}
+.tr>div{border-radius:var(--r2);box-shadow:inset 0 0 0 1.5px #2a2a2e;padding:clamp(20px,2.6vw,36px);background:rgba(250,250,250,.86);transition:translate .22s;min-width:0}
+.tr>div:hover{translate:0 -3px}
+.tr .tk-c{margin:0 0 18px}
+.tr.rec>div{background:#fff;box-shadow:inset 0 0 0 3px var(--red)}
+.recl{display:inline-flex;align-items:center;background:var(--red);color:#fff;border-radius:20px;min-height:34px;padding:0 14px;font-size:14px;font-weight:700;line-height:1;margin-bottom:8px;hyphens:none}
+.cont{display:grid;grid-template-columns:1fr 1fr;gap:14px;margin-top:0}
+.contl{background:var(--p);border-radius:var(--r2);overflow:hidden;display:flex;align-items:center;justify-content:center;min-height:300px;padding:20px}
+.contr{background:var(--p);border-radius:var(--r2);padding:clamp(24px,3vw,44px)}
+.cr{display:flex;gap:14px;align-items:center;margin-top:16px;transition:translate .2s}
+.cr:hover{translate:3px 0}
+.cr i{flex:none;width:52px;height:52px;border-radius:14px;background:var(--blue);color:#fff;display:flex;align-items:center;justify-content:center;font-size:23px}
+.cr b{display:block;font-weight:700}
+.cr span{color:var(--mu)}
+.fin{display:grid;grid-template-columns:1fr 1fr;gap:20px;align-items:center;position:relative}
+.fin .pen{position:absolute;left:-2%;bottom:-6%;width:clamp(50px,6vw,84px)}
+.dock{position:fixed;left:50%;bottom:12px;translate:-50% 130%;z-index:60;width:min(600px,calc(100% - 32px));background:#fff;border-radius:50px;padding:8px 8px 8px 26px;display:flex;align-items:center;justify-content:space-between;gap:12px;box-shadow:0 12px 34px rgba(25,25,35,.22);transition:translate .35s}
+.dock.show{translate:-50% 0}
+.dock p{line-height:1.15;font-size:14.5px;color:var(--mu)}
+.dock p b{display:block;font:800 21px/1.05 var(--head);color:var(--ink);letter-spacing:-.03em}
+.tp{position:fixed;left:0;right:0;top:0;height:3px;background:var(--red);transform:scaleX(0);transform-origin:left;z-index:80}
+.ft{padding:30px var(--g) 110px;text-align:center;color:var(--mu);font-size:14px;line-height:1.5}
+.ft-s{display:flex;flex-wrap:wrap;gap:6px 16px;justify-content:center;margin:10px auto 14px;max-width:960px}
+
+@media (max-width:1060px){
+  .hero{min-height:0;display:flex;flex-direction:column}
+  .hero-tx{margin-left:0;padding:34px clamp(18px,5%,60px) 10px;order:1}
+  .hd{order:0}
+  .hero-stage{position:relative;order:2;height:min(108vw,800px)}
+  .hero-im{left:50%;translate:-50% 0;width:min(86%,600px)}
+  .hero-rb{left:-8%;top:0;width:96%;height:100%}
+  .hero-fl{width:clamp(110px,24vw,210px);right:0;bottom:0}
+  .hd .opt,.logo small{display:none}
+  .story,.grp,.qt,.dev,.fq,.fin,.cont{grid-template-columns:1fr}
+  .side{min-height:400px}
+  .g3,.args{grid-template-columns:1fr 1fr}
+  .st4{grid-template-columns:1fr 1fr}
+  .lst{grid-template-columns:1fr 1fr}
+  .gal figure{flex-basis:calc(50% - 8px)}
+  .phg{grid-template-columns:1fr}
+}
+@media (min-width:1061px){.hero-stage{position:absolute;inset:0;z-index:1}}
+@media (max-width:720px){
+  :root{--r:34px;--r2:26px}
+  body{font-size:17px}
+  .g3,.args,.st4,.lst,.nums,.etl,.mist,.tk,.tr{grid-template-columns:1fr}
+  .gal figure{flex-basis:100%}
+  .fl{height:460vh}
+  .fl-s{min-height:0;align-items:flex-start;padding-top:8px;top:8px;height:calc(100svh - 16px)}
+  .fl-g{grid-template-columns:1fr;gap:10px}
+  .fl-t{display:grid;grid-template-columns:auto 1fr;gap:0 12px;align-items:start}
+  .fl-n{width:58px;height:58px;font-size:26px;grid-row:1/3}
+  .fl-h{font-size:30px;margin-top:0;min-height:0}
+  .fl-p{font-size:16px;min-height:5.6em}
+  .fl-bar{grid-column:1/3;max-width:none}
+  .fl-c{height:clamp(240px,42svh,380px)}
+  .cta b{min-height:64px;padding:0 26px;font-size:18px}
+  .cta i{width:64px;height:64px}
+  .free{margin:10px 0 0}
+  .tag{min-height:60px;padding:0 22px}
+  .gl{min-height:340px}
+  .gl .stage{min-height:230px}
+  .bw{gap:8px}
+  .blk{min-height:68px;padding:0 16px;font-size:27px}
+  .tabs{width:100%}
+  .tabs button{flex:1;padding:0 8px;min-height:60px}
+  .dock{padding-left:18px}
+  .dock .cta i{display:none}
+  .dock .cta b{padding:0 20px;font-size:15px;min-height:50px}
+  .logo em{font-size:17px}
+  .hero h1 .hw{font-size:.74em}
+  .pill.tg,.hd .pill.r{display:none}
+}
+@media (prefers-reduced-motion:reduce){
+  html{scroll-behavior:auto}
+  *,*::before,*::after{animation:none!important;transition:none!important}
+  .fl{height:auto}
+  .fl-s{position:static;height:auto}
+}
+</style>
+
+</head>
+<body>
+
+<svg width="0" height="0" style="position:absolute" aria-hidden="true"><defs>
+<symbol id="i-arrow-up-right" viewBox="0 0 24 24"><path d="M7 7h10v10"/><path d="M7 17 17 7"/></symbol>
+<symbol id="i-chevron-down" viewBox="0 0 24 24"><path d="m6 9 6 6 6-6"/></symbol>
+<symbol id="i-volume-2" viewBox="0 0 24 24"><path d="M11 4.702a.705.705 0 0 0-1.203-.498L6.413 7.587A1.4 1.4 0 0 1 5.416 8H3a1 1 0 0 0-1 1v6a1 1 0 0 0 1 1h2.416a1.4 1.4 0 0 1 .997.413l3.383 3.384A.705.705 0 0 0 11 19.298z"/><path d="M16 9a5 5 0 0 1 0 6"/><path d="M19.364 18.364a9 9 0 0 0 0-12.728"/></symbol>
+<symbol id="i-check" viewBox="0 0 24 24"><path d="M20 6 9 17l-5-5"/></symbol>
+<symbol id="i-x" viewBox="0 0 24 24"><path d="M18 6 6 18"/><path d="m6 6 12 12"/></symbol>
+<symbol id="i-message-circle" viewBox="0 0 24 24"><path d="M7.9 20A9 9 0 1 0 4 16.1L2 22Z"/></symbol>
+<symbol id="i-send" viewBox="0 0 24 24"><path d="M14.536 21.686a.5.5 0 0 0 .937-.024l6.5-19a.496.496 0 0 0-.635-.635l-19 6.5a.5.5 0 0 0-.024.937l7.93 3.18a2 2 0 0 1 1.112 1.11z"/><path d="m21.854 2.147-10.94 10.939"/></symbol>
+<symbol id="i-phone" viewBox="0 0 24 24"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></symbol>
+<symbol id="i-mail" viewBox="0 0 24 24"><rect width="20" height="16" x="2" y="4" rx="2"/><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"/></symbol>
+<symbol id="i-map-pin" viewBox="0 0 24 24"><path d="M20 10c0 4.993-5.539 10.193-7.399 11.799a1 1 0 0 1-1.202 0C9.539 20.193 4 14.993 4 10a8 8 0 0 1 16 0"/><circle cx="12" cy="10" r="3"/></symbol>
+<symbol id="i-calendar" viewBox="0 0 24 24"><path d="M8 2v4"/><path d="M16 2v4"/><rect width="18" height="18" x="3" y="4" rx="2"/><path d="M3 10h18"/></symbol>
+<symbol id="i-clock" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></symbol>
+<symbol id="i-file-text" viewBox="0 0 24 24"><path d="M15 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V7Z"/><path d="M14 2v4a2 2 0 0 0 2 2h4"/><path d="M10 9H8"/><path d="M16 13H8"/><path d="M16 17H8"/></symbol>
+<symbol id="i-link" viewBox="0 0 24 24"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"/><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"/></symbol>
+<symbol id="i-lock" viewBox="0 0 24 24"><rect width="18" height="11" x="3" y="11" rx="2" ry="2"/><path d="M7 11V7a5 5 0 0 1 10 0v4"/></symbol>
+<symbol id="i-repeat" viewBox="0 0 24 24"><path d="m17 2 4 4-4 4"/><path d="M3 11v-1a4 4 0 0 1 4-4h14"/><path d="m7 22-4-4 4-4"/><path d="M21 13v1a4 4 0 0 1-4 4H3"/></symbol>
+<symbol id="i-trophy" viewBox="0 0 24 24"><path d="M6 9H4.5a2.5 2.5 0 0 1 0-5H6"/><path d="M18 9h1.5a2.5 2.5 0 0 0 0-5H18"/><path d="M4 22h16"/><path d="M10 14.66V17c0 .55-.47.98-.97 1.21C7.85 18.75 7 20.24 7 22"/><path d="M14 14.66V17c0 .55.47.98.97 1.21C16.15 18.75 17 20.24 17 22"/><path d="M18 2H6v7a6 6 0 0 0 12 0V2Z"/></symbol>
+<symbol id="i-brain" viewBox="0 0 24 24"><path d="M12 5a3 3 0 1 0-5.997.125 4 4 0 0 0-2.526 5.77 4 4 0 0 0 .556 6.588A4 4 0 1 0 12 18Z"/><path d="M12 5a3 3 0 1 1 5.997.125 4 4 0 0 1 2.526 5.77 4 4 0 0 1-.556 6.588A4 4 0 1 1 12 18Z"/><path d="M15 13a4.5 4.5 0 0 1-3-4 4.5 4.5 0 0 1-3 4"/><path d="M17.599 6.5a3 3 0 0 0 .399-1.375"/><path d="M6.003 5.125A3 3 0 0 0 6.401 6.5"/><path d="M3.477 10.896a4 4 0 0 1 .585-.396"/><path d="M19.938 10.5a4 4 0 0 1 .585.396"/><path d="M6 18a4 4 0 0 1-1.967-.516"/><path d="M19.967 17.484A4 4 0 0 1 18 18"/></symbol>
+<symbol id="i-circle-check" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><path d="m9 12 2 2 4-4"/></symbol>
+<symbol id="i-circle-x" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><path d="m15 9-6 6"/><path d="m9 9 6 6"/></symbol>
+<symbol id="i-menu" viewBox="0 0 24 24"><line x1="4" x2="20" y1="12" y2="12"/><line x1="4" x2="20" y1="6" y2="6"/><line x1="4" x2="20" y1="18" y2="18"/></symbol>
+<symbol id="i-shield-check" viewBox="0 0 24 24"><path d="M20 13c0 5-3.5 7.5-7.66 8.95a1 1 0 0 1-.67-.01C7.5 20.5 4 18 4 13V6a1 1 0 0 1 1-1c2 0 4.5-1.2 6.24-2.72a1.17 1.17 0 0 1 1.52 0C14.51 3.81 17 5 19 5a1 1 0 0 1 1 1z"/><path d="m9 12 2 2 4-4"/></symbol>
+<symbol id="i-heart-pulse" viewBox="0 0 24 24"><path d="M19 14c1.49-1.46 3-3.21 3-5.5A5.5 5.5 0 0 0 16.5 3c-1.76 0-3 .5-4.5 2-1.5-1.5-2.74-2-4.5-2A5.5 5.5 0 0 0 2 8.5c0 2.3 1.5 4.05 3 5.5l7 7Z"/><path d="M3.22 12H9.5l.5-1 2 4.5 2-7 1.5 3.5h5.27"/></symbol>
+<symbol id="i-stethoscope" viewBox="0 0 24 24"><path d="M11 2v2"/><path d="M5 2v2"/><path d="M5 3H4a2 2 0 0 0-2 2v4a6 6 0 0 0 12 0V5a2 2 0 0 0-2-2h-1"/><path d="M8 15a6 6 0 0 0 12 0v-3"/><circle cx="20" cy="10" r="2"/></symbol>
+<symbol id="i-wallet" viewBox="0 0 24 24"><path d="M19 7V4a1 1 0 0 0-1-1H5a2 2 0 0 0 0 4h15a1 1 0 0 1 1 1v4h-3a2 2 0 0 0 0 4h3a1 1 0 0 0 1-1v-2a1 1 0 0 0-1-1"/><path d="M3 5v14a2 2 0 0 0 2 2h15a1 1 0 0 0 1-1v-4"/></symbol>
+<symbol id="i-credit-card" viewBox="0 0 24 24"><rect width="20" height="14" x="2" y="5" rx="2"/><line x1="2" x2="22" y1="10" y2="10"/></symbol>
+<symbol id="i-users" viewBox="0 0 24 24"><path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M22 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></symbol>
+<symbol id="i-graduation-cap" viewBox="0 0 24 24"><path d="M21.42 10.922a1 1 0 0 0-.019-1.838L12.83 5.18a2 2 0 0 0-1.66 0L2.6 9.08a1 1 0 0 0 0 1.832l8.57 3.908a2 2 0 0 0 1.66 0z"/><path d="M22 10v6"/><path d="M6 12.5V16a6 3 0 0 0 12 0v-3.5"/></symbol>
+<symbol id="i-dog" viewBox="0 0 24 24"><path d="M11.25 16.25h1.5L12 17z"/><path d="M16 14v.5"/><path d="M4.42 11.247A13.152 13.152 0 0 0 4 14.556C4 18.728 7.582 21 12 21s8-2.272 8-6.444a11.702 11.702 0 0 0-.493-3.309"/><path d="M8 14v.5"/><path d="M8.5 8.5c-.384 1.05-1.083 2.028-2.344 2.5-1.931.722-3.576-.297-3.656-1-.113-.994 1.177-6.53 4-7 1.923-.321 3.651.845 3.651 2.235A7.497 7.497 0 0 1 14 5.277c0-1.39 1.844-2.598 3.767-2.277 2.823.47 4.113 6.006 4 7-.08.703-1.725 1.722-3.656 1-1.261-.472-1.855-1.45-2.239-2.5"/></symbol>
+<symbol id="i-car" viewBox="0 0 24 24"><path d="M19 17h2c.6 0 1-.4 1-1v-3c0-.9-.7-1.7-1.5-1.9C18.7 10.6 16 10 16 10s-1.3-1.4-2.2-2.3c-.5-.4-1.1-.7-1.8-.7H5c-.6 0-1.1.4-1.4.9l-1.4 2.9A3.7 3.7 0 0 0 2 12v4c0 .6.4 1 1 1h2"/><circle cx="7" cy="17" r="2"/><path d="M9 17h6"/><circle cx="17" cy="17" r="2"/></symbol>
+<symbol id="i-baby" viewBox="0 0 24 24"><path d="M9 12h.01"/><path d="M15 12h.01"/><path d="M10 16c.5.3 1.2.5 2 .5s1.5-.2 2-.5"/><path d="M19 6.3a9 9 0 0 1 1.8 3.9 2 2 0 0 1 0 3.6 9 9 0 0 1-17.6 0 2 2 0 0 1 0-3.6A9 9 0 0 1 12 3c2 0 3.5 1.1 3.5 2.5s-.9 2.5-2 2.5c-.8 0-1.5-.4-1.5-1"/></symbol>
+<symbol id="i-wifi-off" viewBox="0 0 24 24"><path d="M12 20h.01"/><path d="M8.5 16.429a5 5 0 0 1 7 0"/><path d="M5 12.859a10 10 0 0 1 5.17-2.69"/><path d="M19 12.859a10 10 0 0 0-2.007-1.523"/><path d="M2 8.82a15 15 0 0 1 4.177-2.643"/><path d="M22 8.82a15 15 0 0 0-11.288-3.764"/><path d="m2 2 20 20"/></symbol>
+<symbol id="i-infinity" viewBox="0 0 24 24"><path d="M12 12c-2-2.67-4-4-6-4a4 4 0 1 0 0 8c2 0 4-1.33 6-4Zm0 0c2 2.67 4 4 6 4a4 4 0 0 0 0-8c-2 0-4 1.33-6 4Z"/></symbol>
+<symbol id="i-gift" viewBox="0 0 24 24"><rect x="3" y="8" width="18" height="4" rx="1"/><path d="M12 8v13"/><path d="M19 12v7a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2v-7"/><path d="M7.5 8a2.5 2.5 0 0 1 0-5A4.8 8 0 0 1 12 8a4.8 8 0 0 1 4.5-5 2.5 2.5 0 0 1 0 5"/></symbol>
+<symbol id="i-route" viewBox="0 0 24 24"><circle cx="6" cy="19" r="3"/><path d="M9 19h8.5a3.5 3.5 0 0 0 0-7h-11a3.5 3.5 0 0 1 0-7H15"/><circle cx="18" cy="5" r="3"/></symbol>
+<symbol id="i-hammer" viewBox="0 0 24 24"><path d="m15 12-8.373 8.373a1 1 0 1 1-3-3L12 9"/><path d="m18 15 4-4"/><path d="m21.5 11.5-1.914-1.914A2 2 0 0 1 19 8.172V7l-2.26-2.26a6 6 0 0 0-4.202-1.756L9 2.96l.92.82A6.18 6.18 0 0 1 12 8.4V10l2 2h1.172a2 2 0 0 1 1.414.586L18.5 14.5"/></symbol>
+<symbol id="i-book-open" viewBox="0 0 24 24"><path d="M12 7v14"/><path d="M3 18a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1h5a4 4 0 0 1 4 4 4 4 0 0 1 4-4h5a1 1 0 0 1 1 1v13a1 1 0 0 1-1 1h-6a3 3 0 0 0-3 3 3 3 0 0 0-3-3z"/></symbol>
+<symbol id="i-headphones" viewBox="0 0 24 24"><path d="M3 14h3a2 2 0 0 1 2 2v3a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-7a9 9 0 0 1 18 0v7a2 2 0 0 1-2 2h-1a2 2 0 0 1-2-2v-3a2 2 0 0 1 2-2h3"/></symbol>
+<symbol id="i-pen-line" viewBox="0 0 24 24"><path d="M12 20h9"/><path d="M16.376 3.622a1 1 0 0 1 3.002 3.002L7.368 18.635a2 2 0 0 1-.855.506l-2.872.838a.5.5 0 0 1-.62-.62l.838-2.872a2 2 0 0 1 .506-.854z"/></symbol>
+<symbol id="i-mic" viewBox="0 0 24 24"><path d="M12 2a3 3 0 0 0-3 3v7a3 3 0 0 0 6 0V5a3 3 0 0 0-3-3Z"/><path d="M19 10v2a7 7 0 0 1-14 0v-2"/><line x1="12" x2="12" y1="19" y2="22"/></symbol>
+<symbol id="i-quote" viewBox="0 0 24 24"><path d="M16 3a2 2 0 0 0-2 2v6a2 2 0 0 0 2 2 1 1 0 0 1 1 1v1a2 2 0 0 1-2 2 1 1 0 0 0-1 1v2a1 1 0 0 0 1 1 6 6 0 0 0 6-6V5a2 2 0 0 0-2-2z"/><path d="M5 3a2 2 0 0 0-2 2v6a2 2 0 0 0 2 2 1 1 0 0 1 1 1v1a2 2 0 0 1-2 2 1 1 0 0 0-1 1v2a1 1 0 0 0 1 1 6 6 0 0 0 6-6V5a2 2 0 0 0-2-2z"/></symbol>
+<symbol id="i-chart-line" viewBox="0 0 24 24"><path d="M3 3v16a2 2 0 0 0 2 2h16"/><path d="m19 9-5 5-4-4-3 3"/></symbol>
+<symbol id="i-sparkles" viewBox="0 0 24 24"><path d="M9.937 15.5A2 2 0 0 0 8.5 14.063l-6.135-1.582a.5.5 0 0 1 0-.962L8.5 9.936A2 2 0 0 0 9.937 8.5l1.582-6.135a.5.5 0 0 1 .963 0L14.063 8.5A2 2 0 0 0 15.5 9.937l6.135 1.581a.5.5 0 0 1 0 .964L15.5 14.063a2 2 0 0 0-1.437 1.437l-1.582 6.135a.5.5 0 0 1-.963 0z"/><path d="M20 3v4"/><path d="M22 5h-4"/><path d="M4 17v2"/><path d="M5 18H3"/></symbol>
+
+</defs></svg>
+<i class="tp" id="tp"></i>
+
+<div class="menu" id="menu" role="dialog" aria-modal="true" aria-label="Меню">
+  <div class="menu-c">
+    <button class="menu-x" type="button" id="menuX" aria-label="Закрыть"><svg class="ic"><use href="#i-x"/></svg></button>
+    <ul>
+      <li><a href="#fail">История с&nbsp;телевизором</a></li>
+      <li><a href="#what">Что это за страховки</a></li>
+      <li><a href="#why">Зачем они нужны</a></li>
+      <li><a href="#how">Как образуются слова</a></li>
+      <li><a href="#flow">Что делать при ущербе</a></li>
+      <li><a href="#errors">Где ошибаются</a></li>
+      <li><a href="#except">Исключения</a></li>
+      <li><a href="#quiz">Тест</a></li>
+      <li><a href="#platform">Платформа</a></li>
+    </ul>
+  </div>
+</div>
+
+<main id="top">
+
+<section class="hero" aria-label="Обложка">
+  <div class="hd">
+    <a class="logo" href="#top"><img src="media/logo.webp" alt="" width="46" height="46"><span><b>Stellas</b><em>deutsch</em></span><small>Немецкий для жизни в&nbsp;Германии</small></a>
+    <div class="hd-r">
+      <a class="pill tg opt" href="https://t.me/stellasdeutsch" target="_blank" rel="noopener"><svg class="ic"><use href="#i-send"/></svg>Telegram</a>
+      <a class="pill r" href="#prices">Платформа</a>
+      <button class="burger" type="button" id="menuO" aria-label="Открыть меню"><svg class="ic"><use href="#i-menu"/></svg></button>
+    </div>
+  </div>
+  <div class="hero-stage">
+    <svg class="ribbon hero-rb" viewBox="0 0 560 800" preserveAspectRatio="none" aria-hidden="true"><path id="rb0" pathLength="1" d="M-40 210C170 40 410 60 430 250 448 430 150 560 90 860" stroke-width="112"/></svg>
+    <div class="hero-im"><div id="heroP"><img src="media/x-hero.webp" alt="Улыбающаяся девушка с синей папкой и картой страховки" width="820" height="1020" fetchpriority="high"></div></div>
+    <img class="o hero-fl float" src="media/x-flag.webp" alt="" width="380" height="400">
+  </div>
+  <div class="hero-tx">
+    <h1>Объясню <b>страховки</b> <span class="free"><i>8<br>мин</i><span>Без агента<br>и&nbsp;без паники</span></span><br><span class="hw">по-человечески</span></h1>
+    <p class="lede">Krankenkasse и&nbsp;Haftpflicht. Что обязательно, что нужно и&nbsp;где все спотыкаются</p>
+    <a class="cta" href="#fail"><b>Начать разбор</b><i><svg class="ic"><use href="#i-arrow-up-right"/></svg></i></a>
+  </div>
+</section>
+
+<section class="sec" id="fail">
+  <div class="sheet gridb">
+    <svg class="ribbon" style="right:-6%;top:6%;width:44%;height:90%" viewBox="0 0 500 800" preserveAspectRatio="none" aria-hidden="true"><path class="rbd" pathLength="1" d="M520 40C260 90 120 240 210 410 300 580 480 640 400 860" stroke="#E2E2E2" style="stroke:#E4E4E4" stroke-width="96"/></svg>
+    <div class="wrap story">
+      <div>
+        <h2 class="h mega">Немного о&nbsp;том, <b>как я&nbsp;разбил телевизор</b> <span class="tick"><svg class="ic"><use href="#i-file-text"/></svg></span></h2>
+        <div class="chat" id="chat">
+          <div class="bub me"><span class="av"><img src="media/logo.webp" alt="" width="56" height="56"></span><div class="m">Был в&nbsp;гостях у&nbsp;соседа. Сосед показывал телевизор. Телевизор был большой. Я&nbsp;показывал, какой большой. Рукой.</div></div>
+          <div class="bub"><span class="av">M</span><div class="m"><span class="row"><span><b lang="de">Kein Problem. Hast du eine Haftpflicht?</b><span class="ru">Ничего страшного. У&nbsp;тебя есть Haftpflicht?</span></span><button class="say" type="button" data-say="Kein Problem. Hast du eine Haftpflicht?" aria-label="Послушать"><svg class="ic"><use href="#i-volume-2"/></svg></button></span></div></div>
+          <div class="bub me"><span class="av"><img src="media/logo.webp" alt="" width="56" height="56"></span><div class="m"><span class="row"><span><b lang="de">Nein. Aber ich bin bei der Krankenkasse.</b><span class="ru">Нет. Но я&nbsp;в больничной кассе.</span></span><button class="say w" type="button" data-say="Nein. Aber ich bin bei der Krankenkasse." aria-label="Послушать"><svg class="ic"><use href="#i-volume-2"/></svg></button></span></div></div>
+          <div class="bub"><span class="av">M</span><div class="m"><span class="row"><span><b lang="de">Der Fernseher ist nicht krank.</b><span class="ru">Телевизор не болен.</span></span><button class="say" type="button" data-say="Der Fernseher ist nicht krank." aria-label="Послушать"><svg class="ic"><use href="#i-volume-2"/></svg></button></span></div></div>
+          <div class="bub me"><span class="av"><img src="media/logo.webp" alt="" width="56" height="56"></span><div class="m">Телевизор я&nbsp;оплатил сам. Телевизор был большой. Об этом я&nbsp;уже говорил.</div></div>
+        </div>
+      </div>
+      <div class="side" aria-hidden="true">
+        <img class="o float" src="media/x-tv.webp" alt="" width="340" height="300" style="width:78%;right:0;top:4%" loading="lazy">
+        <div class="fcard" style="left:0;top:48%"><b>Krankenkasse</b>Лечит тебя</div>
+        <div class="fcard" style="right:2%;top:66%"><b>Haftpflicht</b>Спасает от соседа</div>
+        <img class="o float" src="media/x-steth.webp" alt="" width="340" height="340" style="width:36%;left:6%;bottom:0" loading="lazy">
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="sec" id="what">
+  <div class="wrap plain">
+    <h2 class="h c mega"><b>Две страховки.</b> Два разных несчастья</h2>
+    <p class="sub c">В&nbsp;русском это одно слово. Поэтому мы всё и&nbsp;путаем.</p>
+    <div class="grp">
+      <div class="gl"><span class="tag">Если болеешь ты</span><div class="stage"><svg class="ribbon" style="left:0;top:0;width:100%;height:100%;z-index:0" viewBox="0 0 500 400" preserveAspectRatio="none" aria-hidden="true"><path class="rbd" pathLength="1" style="stroke:#E0E0E0" d="M40 40C210 -10 300 130 180 230 120 280 70 320 90 430" stroke-width="66"/></svg><img class="o float" src="media/x-card.webp" alt="Карта медицинской страховки" width="340" height="230" loading="lazy" style="width:56%;left:22%;top:18%"><img class="o float" src="media/x-pills.webp" alt="" width="340" height="280" loading="lazy" style="width:36%;right:3%;bottom:8%"></div></div>
+      <div class="gr">
+        <h3 lang="de">Krankenkasse</h3>
+        <ul class="dots">
+          <li><span>Это не выбор. <b>Каждый, кто живёт в&nbsp;Германии,</b> обязан быть застрахован.</span></li>
+          <li><span>Минимум по закону: лечение у&nbsp;врача и&nbsp;в больнице.</span></li>
+          <li><span>Платишь процентом от зарплаты. <b>Половину платит работодатель.</b></span></li>
+        </ul>
+        <div class="in">
+          <p>Переводится как больничная касса. Касса. Туда ходит твоя зарплата. Оттуда платят врачу.</p>
+          <div class="exs">
+            <div class="ex"><button class="say" type="button" data-say="Bei welcher Krankenkasse sind Sie?" aria-label="Послушать"><svg class="ic"><use href="#i-volume-2"/></svg></button><div><p class="de" lang="de">Bei welcher Krankenkasse sind Sie?</p><p class="ru">В&nbsp;какой вы кассе?</p></div></div>
+            <div class="ex"><button class="say" type="button" data-say="Ich bin gesetzlich versichert." aria-label="Послушать"><svg class="ic"><use href="#i-volume-2"/></svg></button><div><p class="de" lang="de">Ich bin gesetzlich versichert.</p><p class="ru">У&nbsp;меня государственная страховка.</p></div></div>
+          </div>
+        </div>
+        <p style="margin-top:12px"><a class="src" href="https://www.gesetze-im-internet.de/vvg_2008/__193.html" target="_blank" rel="noopener"><svg class="ic"><use href="#i-file-text"/></svg>§ 193 VVG</a> &nbsp; <a class="src" href="https://www.gesetze-im-internet.de/sgb_5/__249.html" target="_blank" rel="noopener"><svg class="ic"><use href="#i-file-text"/></svg>§ 249 SGB V</a></p>
+      </div>
+    </div>
+    <div class="grp">
+      <div class="gl"><span class="tag bl">Если ломаешь ты</span><div class="stage"><svg class="ribbon" style="left:0;top:0;width:100%;height:100%;z-index:0" viewBox="0 0 500 400" preserveAspectRatio="none" aria-hidden="true"><path class="rbd" pathLength="1" style="stroke:#E0E0E0" d="M470 30C300 -10 180 130 310 230 370 280 430 320 410 430" stroke-width="66"/></svg><img class="o float" src="media/x-coffee.webp" alt="Ноутбук с пролитым кофе" width="340" height="250" loading="lazy" style="width:60%;left:18%;top:16%"><img class="o float" src="media/x-phone.webp" alt="" width="340" height="400" loading="lazy" style="width:27%;left:5%;bottom:6%"></div></div>
+      <div class="gr">
+        <h3 lang="de">Haftpflicht</h3>
+        <ul class="dots bl">
+          <li><span>Ломаешь чужое, платишь из своего кармана. Это <b>§ 823 BGB</b>, а&nbsp;не плохое настроение соседа.</span></li>
+          <li><span>Потолка нет. Отвечаешь <b>в&nbsp;неограниченном размере</b>.</span></li>
+          <li><span>Закон её не требует. Требует здравый смысл.</span></li>
+        </ul>
+        <div class="in">
+          <p>Haftpflicht это обязанность отвечать. Страховая отвечает вместо тебя.</p>
+          <div class="exs">
+            <div class="ex"><button class="say" type="button" data-say="Das war ein Versehen." aria-label="Послушать"><svg class="ic"><use href="#i-volume-2"/></svg></button><div><p class="de" lang="de">Das war ein Versehen.</p><p class="ru">Это случайно.</p></div></div>
+            <div class="ex"><button class="say" type="button" data-say="Haben Sie eine Haftpflichtversicherung?" aria-label="Послушать"><svg class="ic"><use href="#i-volume-2"/></svg></button><div><p class="de" lang="de">Haben Sie eine Haftpflichtversicherung?</p><p class="ru">У&nbsp;вас есть страховка ответственности?</p></div></div>
+          </div>
+        </div>
+        <p style="margin-top:12px"><a class="src" href="https://www.gesetze-im-internet.de/bgb/__823.html" target="_blank" rel="noopener"><svg class="ic"><use href="#i-file-text"/></svg>§ 823 BGB</a> &nbsp; <a class="src" href="https://www.verbraucherzentrale.de/wissen/geld-versicherungen/weitere-versicherungen/private-haftpflichtversicherung-ein-absolutes-muss-fuer-alle-13891" target="_blank" rel="noopener"><svg class="ic"><use href="#i-file-text"/></svg>Verbraucherzentrale</a></p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="sec" id="why">
+  <div class="sheet gridb">
+    <div class="wrap">
+      <h2 class="h c mega"><span class="hw">Зачем</span><br>это знать <b>в&nbsp;цифрах</b></h2>
+      <div class="g3 stg">
+        <article class="card"><h3><span class="count" data-to="17.5" data-dec="1">17,5</span> %</h3><p>средняя ставка кассы в&nbsp;2026. Это 14,6 плюс 2,9</p><a class="src" href="https://www.vdek.com/politik/was-aendert-sich/gesundheitswesen-2026/" target="_blank" rel="noopener"><svg class="ic"><use href="#i-file-text"/></svg>vdek</a><img class="o" src="media/x-card.webp" alt="" loading="lazy" width="340" height="230"></article>
+        <article class="card"><h3>Половина</h3><p>взноса на работодателе. Вторая на тебе</p><a class="src" href="https://www.gesetze-im-internet.de/sgb_5/__249.html" target="_blank" rel="noopener"><svg class="ic"><use href="#i-file-text"/></svg>§ 249 SGB V</a><img class="o" src="media/x-docs.webp" alt="" loading="lazy" width="340" height="280"></article>
+        <article class="card"><h3><span class="count" data-to="12">12</span> месяцев</h3><p>минимум в&nbsp;одной кассе. Потом можно уйти</p><a class="src" href="https://www.gesetze-im-internet.de/sgb_5/__175.html" target="_blank" rel="noopener"><svg class="ic"><use href="#i-file-text"/></svg>§ 175 SGB V</a><img class="o" src="media/x-stamp.webp" alt="" loading="lazy" width="340" height="300"></article>
+        <article class="card"><h3>Без потолка</h3><p>твоя ответственность за чужой ущерб</p><a class="src" href="https://www.verbraucherzentrale.de/wissen/geld-versicherungen/weitere-versicherungen/private-haftpflichtversicherung-ein-absolutes-muss-fuer-alle-13891" target="_blank" rel="noopener"><svg class="ic"><use href="#i-file-text"/></svg>Verbraucherzentrale</a><img class="o" src="media/x-tv.webp" alt="" loading="lazy" width="340" height="300"></article>
+        <article class="card"><h3><span class="count" data-to="10">10</span> млн €</h3><p>минимальная сумма в&nbsp;полисе. Лучше больше</p><a class="src" href="https://www.verbraucherzentrale.de/wissen/geld-versicherungen/weitere-versicherungen/private-haftpflichtversicherung-ein-absolutes-muss-fuer-alle-13891" target="_blank" rel="noopener"><svg class="ic"><use href="#i-file-text"/></svg>Verbraucherzentrale</a><img class="o" src="media/x-clip.webp" alt="" loading="lazy" width="340" height="400" style="width:46%"></article>
+        <article class="card"><h3>от <span class="count" data-to="48">48</span> €</h3><p>в&nbsp;год за очень хороший тариф. Цены меняются</p><a class="src" href="https://www.test.de/Vergleich-Haftpflichtversicherung-4775777-5632797/" target="_blank" rel="noopener"><svg class="ic"><use href="#i-file-text"/></svg>Stiftung Warentest</a><img class="o" src="media/x-ball.webp" alt="" loading="lazy" width="340" height="340" style="width:44%"></article>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="sec" id="how">
+  <div class="wrap plain">
+    <h2 class="h c mega"><span class="hw">Как образуются</span><br>эти <b>слова-поезда</b></h2>
+    <p class="sub c">Немец не придумывает новое слово. Немец прицепляет вагон.</p>
+    <div class="tabs-w"><div class="tabs" id="wt"></div></div>
+    <div class="bw" id="bw" lang="de"></div>
+    <div class="bres" id="bres" lang="de"></div>
+    <p class="bcap" id="bcap"></p>
+    <div style="display:flex;justify-content:center;margin-top:16px"><button class="say" type="button" id="bsay" aria-label="Послушать слово"><svg class="ic"><use href="#i-volume-2"/></svg></button></div>
+    <div class="grp" style="margin-top:40px">
+      <div class="gr" style="background:var(--p)"><h3>Правило вагонов</h3><ul class="dots"><li><span><b>Род даёт последний вагон.</b> die Kasse, значит die Krankenkasse.</span></li><li><span>Смысл тоже сзади. Haftpflicht это вид Versicherung, а&nbsp;не наоборот.</span></li></ul></div>
+      <div class="gr" style="background:var(--p)"><h3>Как это читать</h3><ul class="dots bl"><li><span>В&nbsp;Pflicht звучат <b>оба звука</b>, п и&nbsp;ф. Рот привыкнет. Не сразу.</span></li><li><span>ch после i мягкое, как ихь. Хафтпфлихт. Три согласных подряд. Немец сделал это специально.</span></li></ul></div>
+    </div>
+  </div>
+</section>
+
+<section class="sec" id="phrase">
+  <div class="sheet gridb">
+    <div class="wrap">
+      <h2 class="h c mega">Собери фразу <b>для регистратуры</b></h2>
+      <div class="tabs-w"><div class="tabs" id="pt"></div></div>
+      <div class="phr" id="phr" lang="de"></div>
+      <p class="bcap" id="prus"></p>
+      <div style="display:flex;justify-content:center;gap:10px;margin-top:14px"><button class="say" type="button" id="psay" aria-label="Послушать фразу"><svg class="ic"><use href="#i-volume-2"/></svg></button><button class="say" type="button" id="prep" aria-label="Собрать заново"><svg class="ic"><use href="#i-repeat"/></svg></button></div>
+      <div class="leg"><span><i style="background:var(--ink)"></i>подлежащее</span><span><i style="background:#8A8A92"></i>глагол</span><span><i style="background:var(--blue)"></i>Akkusativ</span><span><i style="background:var(--red)"></i>Dativ</span></div>
+      <h3 class="punch"><b>У&nbsp;врача</b> всё проще, чем кажется</h3>
+      <div class="st4 stg">
+        <article class="sc"><b class="n">1</b><img class="o" src="media/x-clip.webp" alt="" loading="lazy" width="340" height="400" style="width:70px"><h3>Звонишь</h3><p class="deL" lang="de">Ich brauche einen Termin.</p><p class="ru">Мне нужна запись.</p><button class="say" type="button" data-say="Ich brauche einen Termin." aria-label="Послушать"><svg class="ic"><use href="#i-volume-2"/></svg></button></article>
+        <article class="sc"><b class="n">2</b><img class="o" src="media/x-card.webp" alt="" loading="lazy" width="340" height="230"><h3>Даёшь карту</h3><p class="deL" lang="de">Hier ist meine Versichertenkarte.</p><p class="ru">Вот моя карта страховки.</p><button class="say" type="button" data-say="Hier ist meine Versichertenkarte." aria-label="Послушать"><svg class="ic"><use href="#i-volume-2"/></svg></button></article>
+        <article class="sc"><b class="n">3</b><img class="o" src="media/x-steth.webp" alt="" loading="lazy" width="340" height="340"><h3>Лечишься</h3><p class="deL" lang="de">Was fehlt Ihnen?</p><p class="ru">Что вас беспокоит?</p><button class="say" type="button" data-say="Was fehlt Ihnen?" aria-label="Послушать"><svg class="ic"><use href="#i-volume-2"/></svg></button></article>
+        <article class="sc"><b class="n">4</b><img class="o" src="media/x-docs.webp" alt="" loading="lazy" width="340" height="280"><h3>Счёт уходит в&nbsp;кассу</h3><p class="deL" lang="de">Die Kasse zahlt das.</p><p class="ru">Это оплатит касса.</p><button class="say" type="button" data-say="Die Kasse zahlt das." aria-label="Послушать"><svg class="ic"><use href="#i-volume-2"/></svg></button></article>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="sec" id="flow">
+  <div class="wrap plain" style="padding-bottom:0">
+    <h2 class="h c mega">Что делать, <b>если что-то сломано</b></h2>
+    <p class="sub c">Пять шагов. Листай. Телевизор не пострадает.</p>
+  </div>
+  <div class="wrap fl" id="fl">
+    <div class="fl-s">
+      <div class="fl-g">
+        <div class="fl-t">
+          <div class="fl-n" id="fn">1</div>
+          <h3 class="fl-h" id="fh"></h3>
+          <p class="fl-p" id="fp"></p>
+          <div class="fl-bar"><i id="fb"></i></div>
+        </div>
+        <div class="fl-c"><svg class="ribbon" style="inset:0;width:100%;height:100%;z-index:0" viewBox="0 0 500 500" preserveAspectRatio="none" aria-hidden="true"><path pathLength="1" id="flrb" style="stroke:var(--blue)" d="M-30 110C150 -20 400 40 340 220 300 350 90 380 130 560" stroke-width="72"/></svg><img class="o" id="fi" src="media/x-coffee.webp" alt="" width="340" height="250" style="position:relative;z-index:1;margin-bottom:64px"><div class="fl-say"><div class="ex"><button class="say" type="button" id="fsay" aria-label="Послушать"><svg class="ic"><use href="#i-volume-2"/></svg></button><div><p class="de" id="fde" lang="de"></p><p class="ru" id="fru"></p></div></div></div></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="sec" id="calc">
+  <div class="sheet gridb">
+    <svg class="ribbon" style="left:-6%;top:12%;width:26%;height:80%" viewBox="0 0 300 700" preserveAspectRatio="none" aria-hidden="true"><path class="rbd" pathLength="1" d="M-60 50C210 40 300 190 170 360 90 470 -20 620 60 760" stroke-width="84"/></svg>
+    <div class="wrap">
+      <h2 class="h c mega"><b>Сколько</b> это стоит</h2>
+      <p class="sub c">Двигай зарплату. Считаю среднюю ставку 2026, без Pflegeversicherung.</p>
+      <div class="tk">
+        <div><p class="tk-t" lang="de">Krankenkasse</p><div class="bc" data-bc="7"></div></div>
+        <div><div class="tk-r"><span class="tk-tag"><svg class="ic"><use href="#i-wallet"/></svg>Твоя доля в&nbsp;месяц</span><span class="tk-p"><span id="kv">263</span> €</span></div><div class="tk-c"><input class="rg" id="kr" type="range" min="1000" max="8000" step="50" value="3000" aria-label="Зарплата брутто в месяц"><p style="display:flex;justify-content:space-between;gap:10px;flex-wrap:wrap;font-size:16px"><span>Брутто <b><span id="kb">3000</span> €</b></span><span>Столько же платит работодатель</span></p><p class="note" id="kn" style="margin-top:8px"></p></div></div>
+      </div>
+      <div class="tk">
+        <div><p class="tk-t" lang="de">Haftpflicht</p><div class="bc" data-bc="19"></div></div>
+        <div><div class="tk-r"><span class="tk-tag"><svg class="ic"><use href="#i-calendar"/></svg>Тариф в&nbsp;год</span><span class="tk-p" style="font-size:clamp(38px,4.6vw,64px)">от <span class="count" data-to="48">48</span> €</span></div><p style="margin-top:16px;font-size:17px;line-height:1.36">Это <span class="v">4 € в&nbsp;месяц</span>. Один кофе и&nbsp;немного совести. Телевизор соседа стоит дороже.</p><p class="note"><a class="src" href="https://www.test.de/Vergleich-Haftpflichtversicherung-4775777-5632797/" target="_blank" rel="noopener"><svg class="ic"><use href="#i-file-text"/></svg>Stiftung Warentest</a> &nbsp;<a class="src" href="https://www.vdek.com/politik/was-aendert-sich/gesundheitswesen-2026/" target="_blank" rel="noopener"><svg class="ic"><use href="#i-file-text"/></svg>vdek: ставки и&nbsp;границы 2026</a></p></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="sec" id="errors">
+  <div class="wrap plain">
+    <h2 class="h c mega">Где ошибаются <b>русскоязычные</b></h2>
+    <p class="sub c">Русский мозг слышит страховка и&nbsp;выключается.</p>
+    <div class="g3 stg" id="errs">
+      <article class="ec"><div class="ec-sw" lang="de"><span class="bad">der Krankenkasse</span><span class="ok">die Krankenkasse</span></div><p>Касса женского рода. Последний вагон решает.</p><div class="ec-b"><button class="say" type="button" data-say="die Krankenkasse" aria-label="Послушать"><svg class="ic"><use href="#i-volume-2"/></svg></button>Больничная касса</div></article>
+      <article class="ec"><div class="ec-sw" lang="de"><span class="bad">Ich habe Krankenkasse</span><span class="ok">Ich bin bei der AOK versichert</span></div><p>Кассу не имеют. В&nbsp;ней состоят. bei плюс Dativ.</p><div class="ec-b"><button class="say" type="button" data-say="Ich bin bei der AOK versichert." aria-label="Послушать"><svg class="ic"><use href="#i-volume-2"/></svg></button>Я&nbsp;застрахован в&nbsp;AOK</div></article>
+      <article class="ec"><div class="ec-sw" lang="de"><span class="bad">Ich bin krank versichert</span><span class="ok">Ich bin krankenversichert</span></div><p>Раздельно выходит: я&nbsp;застрахован больным. Звучит грустно.</p><div class="ec-b"><button class="say" type="button" data-say="Ich bin krankenversichert." aria-label="Послушать"><svg class="ic"><use href="#i-volume-2"/></svg></button>У&nbsp;меня есть медстраховка</div></article>
+      <article class="ec"><div class="ec-sw" lang="de"><span class="bad">Ich habe Schaden gemacht</span><span class="ok">Ich habe einen Schaden verursacht</span></div><p>Ущерб не делают. Его причиняют. И&nbsp;артикль на месте.</p><div class="ec-b"><button class="say" type="button" data-say="Ich habe einen Schaden verursacht." aria-label="Послушать"><svg class="ic"><use href="#i-volume-2"/></svg></button>Я&nbsp;причинил ущерб</div></article>
+      <article class="ec"><div class="ec-sw"><span class="bad">Haftpflicht починит мой телефон</span><span class="ok">Haftpflicht платит за чужой</span></div><p>Свой телефон разбит? Это твоя личная драма.</p><div class="ec-b"><img src="media/x-phone.webp" alt="" loading="lazy" width="340" height="400" style="width:36px;height:auto">Только чужой ущерб</div></article>
+      <article class="ec"><div class="ec-sw"><span class="bad">Заплатят как за новый</span><span class="ok">Заплатят текущую стоимость</span></div><p>Телевизору пять лет? Страховая помнит. Если не починить, платят Zeitwert.</p><div class="ec-b"><button class="say" type="button" data-say="der Zeitwert" aria-label="Послушать"><svg class="ic"><use href="#i-volume-2"/></svg></button>der Zeitwert, текущая стоимость</div></article>
+    </div>
+  </div>
+</section>
+
+<section class="sec" id="except">
+  <div class="sheet gridb">
+    <div class="wrap fq">
+      <div>
+        <h2 class="h mega">Часто спрашивают <b>про исключения</b></h2>
+        <img class="o float" src="media/x-bear.webp" alt="Плюшевый мишка с пластырем" width="340" height="340" loading="lazy" style="width:min(60%,270px);margin:34px auto 0">
+      </div>
+      <div class="fq-l" id="fql">
+        <div class="fqi open"><button type="button" aria-expanded="true"><span>Семья платит отдельно?</span><i><svg class="ic"><use href="#i-chevron-down"/></svg></i></button><div class="fqa"><div><p>Нет, если доход супруга или ребёнка не выше <span class="v">565 € в&nbsp;месяц</span>. На Minijob граница <span class="v">603 €</span>. Тогда они бесплатно в&nbsp;твоей кассе.</p><p><a class="src" href="https://www.vdek.com/vertragspartner/mitgliedschaftsrecht_beitragsrecht/familienversicherung.html" target="_blank" rel="noopener"><svg class="ic"><use href="#i-file-text"/></svg>vdek: Familienversicherung</a></p></div></div></div>
+        <div class="fqi"><button type="button" aria-expanded="false"><span>Студентам дешевле?</span><i><svg class="ic"><use href="#i-chevron-down"/></svg></i></button><div class="fqa"><div><p>Да. Базовая ставка <span class="v">87,38 € в&nbsp;месяц</span>. Сверху Zusatzbeitrag кассы и&nbsp;Pflegeversicherung.</p><p><a class="src" href="https://www.aok.de/pp/rechengroessen/kostenueberblick-studentischen-krankenversicherung/" target="_blank" rel="noopener"><svg class="ic"><use href="#i-file-text"/></svg>AOK: студенты</a></p></div></div></div>
+        <div class="fqi"><button type="button" aria-expanded="false"><span>Когда можно уйти в&nbsp;частную?</span><i><svg class="ic"><use href="#i-chevron-down"/></svg></i></button><div class="fqa"><div><p>Работнику, если зарплата выше <span class="v">6 450 € в&nbsp;месяц</span> (граница 2026). Частная касса уже не процент, а&nbsp;отдельный договор.</p><p><a class="src" href="https://www.vdek.com/politik/was-aendert-sich/gesundheitswesen-2026/" target="_blank" rel="noopener"><svg class="ic"><use href="#i-file-text"/></svg>vdek</a></p></div></div></div>
+        <div class="fqi"><button type="button" aria-expanded="false"><span>Можно сменить кассу раньше 12 месяцев?</span><i><svg class="ic"><use href="#i-chevron-down"/></svg></i></button><div class="fqa"><div><p>Да, если касса подняла Zusatzbeitrag. Обычный выход: срок <span class="v">2 месяца</span> после 12 месяцев в&nbsp;кассе.</p><p><a class="src" href="https://www.gesetze-im-internet.de/sgb_5/__175.html" target="_blank" rel="noopener"><svg class="ic"><use href="#i-file-text"/></svg>§ 175 SGB V</a></p></div></div></div>
+        <div class="fqi"><button type="button" aria-expanded="false"><span>Машину Haftpflicht покрывает?</span><i><svg class="ic"><use href="#i-chevron-down"/></svg></i></button><div class="fqa"><div><p>Нет. На машину отдельная Kfz-Haftpflicht. И&nbsp;она уже обязательна.</p><p><a class="src" href="https://www.gesetze-im-internet.de/pflvg/__1.html" target="_blank" rel="noopener"><svg class="ic"><use href="#i-file-text"/></svg>§ 1 PflVG</a></p></div></div></div>
+        <div class="fqi"><button type="button" aria-expanded="false"><span>А&nbsp;собака?</span><i><svg class="ic"><use href="#i-chevron-down"/></svg></i></button><div class="fqa"><div><p>Отдельный полис. Обязателен он или нет, решает федеральная земля. Собака об этом не знает.</p><p><a class="src" href="https://www.test.de/presse/pressemitteilungen/Hundehalterhaftpflicht-So-guenstig-sind-Policen-fuer-Labrador-und-Jack-Russel-6246233-0/" target="_blank" rel="noopener"><svg class="ic"><use href="#i-file-text"/></svg>Stiftung Warentest</a></p></div></div></div>
+        <div class="fqi"><button type="button" aria-expanded="false"><span>Если нарочно, заплатят?</span><i><svg class="ic"><use href="#i-chevron-down"/></svg></i></button><div class="fqa"><div><p>Нет. Умысел не страхуется. Грубая неосторожность обычно да.</p></div></div></div>
+        <div class="fqi"><button type="button" aria-expanded="false"><span>Партнёр без штампа в&nbsp;полисе?</span><i><svg class="ic"><use href="#i-chevron-down"/></svg></i></button><div class="fqa"><div><p>Супруги могут быть в&nbsp;одном семейном полисе. Партнёра без штампа надо вписать по имени.</p></div></div></div>
+        <div class="fqi"><button type="button" aria-expanded="false"><span>Это работает в&nbsp;Австрии?</span><i><svg class="ic"><use href="#i-chevron-down"/></svg></i></button><div class="fqa"><div><p>Нет. Здесь всё про Германию. В&nbsp;Австрии и&nbsp;Швейцарии система своя. Слова Versicherung и&nbsp;Haftpflicht пригодятся и&nbsp;там.</p></div></div></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="sec" id="sum">
+  <div class="wrap plain">
+    <div class="qt">
+      <div class="qb"><span class="mk" aria-hidden="true">“</span><h2 class="mega">Касса <b>лечит тебя.</b> Haftpflicht <b>спасает от соседа</b></h2><p>Первая обязательна всем. Вторая стоит <b>меньше, чем один твой кофе в&nbsp;месяц</b>. Логика простая.</p></div>
+      <div class="qs">
+        <div class="qs-t"><span>Итог</span><span class="on">Шпаргалка</span><span>Без воды</span></div>
+        <div class="stack" id="stack">
+          <div class="tc" style="left:0;top:2%;rotate:-7deg"><span class="pl">die Krankenkasse</span><p class="deL">Живёшь в&nbsp;Германии, значит обязательна</p></div>
+          <div class="tc" style="right:0;top:10%;rotate:6deg"><span class="pl" style="background:var(--blue)">die Haftpflicht</span><p class="deL">Чужой ущерб. Не твой телефон</p></div>
+          <div class="tc" style="left:10%;top:40%;rotate:4deg"><span class="pl">bei + Dativ</span><p class="deL" lang="de">bei der AOK versichert</p></div>
+          <div class="tc" style="right:2%;top:62%;rotate:-5deg"><span class="pl" style="background:var(--blue)">последний вагон</span><p class="deL">Он даёт род всему поезду</p></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="sec" id="ex">
+  <div class="sheet gridb">
+    <div class="wrap">
+      <h2 class="h c mega">Письмо <b>с&nbsp;пятью минами</b></h2>
+      <p class="sub c">Сообщаешь страховой об ущербе. Нажимай на ошибки. Мины не кусаются.</p>
+      <div class="imac">
+        <div class="scr"><div class="scr-in"><div class="modal">
+          <h3><span class="hw">Письмо в&nbsp;страховую</span>Найди <b>5 ошибок</b></h3>
+          <div class="lett" id="lett" lang="de"></div>
+          <div class="ex-c"><span class="cnt"><span id="exn">0</span> из 5</span><div style="display:flex;gap:10px;align-items:center;flex-wrap:wrap"><button class="cta sm" type="button" id="exshow"><b>Показать ответы</b><i><svg class="ic"><use href="#i-arrow-up-right"/></svg></i></button><button class="say" type="button" id="exsay" aria-label="Послушать правильное письмо"><svg class="ic"><use href="#i-volume-2"/></svg></button></div></div>
+          <div class="anss" id="anss"></div>
+          <p class="note" id="extr" hidden>Перевод: Уважаемые дамы и&nbsp;господа, я&nbsp;уже два года в&nbsp;вашей страховой. Вчера я&nbsp;случайно повредил телевизор соседа. Я&nbsp;хотел бы сообщить об ущербе. Пожалуйста, проверьте мою страховку ответственности. Жду вашего ответа.</p>
+        </div></div></div>
+        <div class="chin"></div><div class="stnd"></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="sec" id="quiz">
+  <div class="wrap plain">
+    <h2 class="h c mega">Шесть вопросов. <b>Без агента</b></h2>
+    <div class="qz" id="qz" style="background:var(--p)"></div>
+  </div>
+</section>
+
+<section class="sec" id="platform">
+  <div class="sheet gridb">
+    <div class="wrap">
+      <h2 class="h c mega">Эта тема заняла <b style="white-space:nowrap">8 минут.</b> Таких <b>340+</b></h2>
+      <div class="dev">
+        <div>
+          <h3>Вся платформа <b>на любом экране</b> <span class="tick"><svg class="ic"><use href="#i-sparkles"/></svg></span></h3>
+          <ul class="dots" style="margin-top:16px"><li><span>Работает в <b>Notion</b>, на телефоне и&nbsp;ноутбуке</span></li></ul>
+          <img class="mock par" src="media/mock-devices.webp" alt="Монитор, ноутбук, планшет и телефон с платформой Stellas в Notion" width="1200" height="800" loading="lazy" style="margin-top:12px">
+        </div>
+        <div>
+          <h3>Уже есть <b>твой разговор</b> <span class="tick bl"><svg class="ic"><use href="#i-phone"/></svg></span></h3>
+          <ul class="dots bl" style="margin-top:16px"><li><span>Внутри готовые ситуации. Берёшь и&nbsp;говоришь</span></li></ul>
+          <div class="lst stg" style="grid-template-columns:1fr 1fr">
+            <div>Звонок в&nbsp;страховую</div><div>Запись к&nbsp;врачу по телефону</div><div>У&nbsp;терапевта</div><div>В&nbsp;больнице</div><div>В&nbsp;аптеке</div><div>Звонок в&nbsp;скорую</div>
+          </div>
+          <img class="o float" src="media/x-aid.webp" alt="" width="340" height="290" loading="lazy" style="width:min(48%,220px);margin:22px auto 0">
+        </div>
+      </div>
+      <div class="nums stg">
+        <div class="nb"><b><span class="count" data-to="340">340</span>+</b><span>гайдов от A0 до C1</span></div>
+        <div class="nb"><b><span class="count" data-to="7500">7500</span>+</b><span>слов с&nbsp;озвучкой</span></div>
+        <div class="nb"><b><span class="count" data-to="100">100</span>+</b><span>учеников в&nbsp;разговорных клубах</span></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="sec">
+  <div class="wrap plain">
+    <div class="qt">
+      <div class="qb"><span class="mk" aria-hidden="true">“</span><h3>Агент улыбается. Ты киваешь. <b>Ты подписываешь</b></h3><p>Через три года выясняется, что платишь за то, что не нужно. Договор был на немецком. <b>Договор всегда будет на немецком.</b></p></div>
+      <div class="qs">
+        <div class="qs-t"><span>Слова</span><span class="on">Ситуации</span><span>Грамматика</span></div>
+        <div class="stack" id="stack2">
+          <figure class="tc" style="left:0;top:2%;rotate:-6deg;width:74%;padding:6px"><img src="media/n-a0-hospital.webp" alt="Раздел платформы: больница, врач, звонок в страховую" width="1400" height="920" loading="lazy" style="border-radius:12px"></figure>
+          <figure class="tc" style="right:0;top:34%;rotate:5deg;width:70%;padding:6px"><img src="media/n-a0-services.webp" alt="Раздел платформы: услуги и документы" width="1400" height="920" loading="lazy" style="border-radius:12px"></figure>
+        </div>
+      </div>
+    </div>
+    <h2 class="h c mega" style="margin-top:70px"><b>Посчитаем</b> честно</h2>
+    <div class="args stg">
+      <article class="arg"><span class="ii"><svg class="ic"><use href="#i-wallet"/></svg></span><h3>Дешевле годовой Haftpflicht</h3><p>Хороший тариф от <span class="v">48 €</span> в&nbsp;год. Вся платформа <span class="v">30 €</span> и&nbsp;один раз.</p></article>
+      <article class="arg"><span class="ii"><svg class="ic"><use href="#i-infinity"/></svg></span><h3>Без подписки</h3><p>Страховки платишь каждый месяц. Здесь один платёж и&nbsp;доступ навсегда.</p></article>
+      <article class="arg"><span class="ii"><svg class="ic"><use href="#i-wifi-off"/></svg></span><h3>Работает без интернета</h3><p>В&nbsp;приложении Notion. Пока ребёнок спит. Пятнадцать минут тоже считаются.</p></article>
+      <article class="arg"><span class="ii"><svg class="ic"><use href="#i-route"/></svg></span><h3>Понятно, что учить первым</h3><p>Темы идут по порядку от A0 до C1. Открываешь и&nbsp;идёшь.</p></article>
+      <article class="arg"><span class="ii"><svg class="ic"><use href="#i-sparkles"/></svg></span><h3>Живые диалоги</h3><p>Гайды по темам B1–C1: тексты, диалоги, тест и&nbsp;ИИ-партнёр для разговора.</p></article>
+      <article class="arg"><span class="ii"><svg class="ic"><use href="#i-chart-line"/></svg></span><h3>Цена вырастет</h3><p>После новых обновлений. Обновления для покупателей бесплатны.</p></article>
+    </div>
+    <h2 class="h c mega" style="margin-top:70px">Вот как это выглядит <span class="hw">в&nbsp;Notion</span></h2>
+    <div class="gal stg">
+      <figure><img src="media/n-a0-hospital.webp" alt="Лексика: больница и врач" width="1400" height="920" loading="lazy"><figcaption>Врач и&nbsp;страховая</figcaption></figure>
+      <figure><img src="media/n-a0-services.webp" alt="Лексика: услуги" width="1400" height="920" loading="lazy"><figcaption>Услуги и&nbsp;документы</figcaption></figure>
+      <figure><img src="media/n-b1-home.webp" alt="Главная страница B1–C1" width="1400" height="920" loading="lazy"><figcaption>Главная B1–C1</figcaption></figure>
+      <figure><img src="media/n-a0-lexik-topics.webp" alt="Темы лексики" width="1400" height="920" loading="lazy"><figcaption>Слова по темам</figcaption></figure>
+      <figure><img src="media/n-b1-srs.webp" alt="Интервальные повторения" width="1400" height="920" loading="lazy"><figcaption>Повторения</figcaption></figure>
+      <figure><img src="media/n-a0-progress.webp" alt="Страница прогресса" width="1400" height="920" loading="lazy"><figcaption>Прогресс видно сразу</figcaption></figure>
+    </div>
+    <div class="rvw"><img src="media/rv-vse-v-odnom-meste.webp" alt="Отзыв: всё собрано в одном месте" loading="lazy"></div>
+  </div>
+</section>
+
+<section class="sec" id="examprep">
+  <div class="sheet gridb">
+    <div class="wrap">
+      <h2 class="h c mega">Письмо из интернета <b>экзаменатор уже читал</b></h2>
+      <p class="sub c">Сто раз. Сегодня. Подготовка к&nbsp;экзамену уже внутри платформы, с&nbsp;шаблонами, которые не стыдно сдать.</p>
+      <p class="note c" style="font-size:16px">В&nbsp;тренировках Krankenkasse встречается в&nbsp;Goethe A2 Hören, telc B1 Lesen, DTZ Lesen и&nbsp;Sprechen.</p>
+      <div class="etl stg">
+        <div class="card"><h3>Goethe</h3><b class="count" data-to="120">120</b><span class="t">гайдов</span></div>
+        <div class="card"><h3>telc и&nbsp;DTZ</h3><b class="count" data-to="89">89</b><span class="t">гайдов</span></div>
+        <div class="card"><h3 lang="de">ÖSD</h3><b class="count" data-to="60">60</b><span class="t">гайдов</span></div>
+      </div>
+      <div class="mods stg">
+        <span class="mod" lang="de"><svg class="ic"><use href="#i-book-open"/></svg>Lesen</span>
+        <span class="mod" lang="de"><svg class="ic"><use href="#i-headphones"/></svg>Hören</span>
+        <span class="mod" lang="de"><svg class="ic"><use href="#i-pen-line"/></svg>Schreiben</span>
+        <span class="mod" lang="de"><svg class="ic"><use href="#i-mic"/></svg>Sprechen</span>
+        <span class="mod" lang="de"><svg class="ic"><use href="#i-hammer"/></svg>Sprachbausteine</span>
+      </div>
+      <p class="note c" style="font-size:16px"><span class="v">40</span> пробников с&nbsp;разбором каждого задания. Тренажёры в <span class="v">54</span> гайдах, квизы в <span class="v">162</span>.</p>
+      <div class="phg">
+        <img class="mock par" src="media/mock-phones.webp" alt="Три телефона с экранами подготовки к экзамену" width="1100" height="733" loading="lazy">
+        <div class="pf"><video class="vid" data-poster="media/clip-probnik.jpg" muted loop playsinline preload="none" src="media/clip-probnik.mp4" aria-label="Клип без звука: пробник с разбором"></video></div>
+      </div>
+      <div class="mist" id="mist">
+        <div>
+          <h3 class="h3">Ошибки никуда не деваются</h3>
+          <p style="margin-top:8px;line-height:1.36;color:var(--mu)">Каждый неверный ответ в&nbsp;квизе летит в&nbsp;«Мои ошибки». Перед экзаменом повторяешь только их.</p>
+          <div id="mqs">
+            <div class="mq"><svg class="ic"><use href="#i-book-open"/></svg><span lang="de">Lesen, Teil 2</span></div>
+            <div class="mq"><svg class="ic"><use href="#i-headphones"/></svg><span lang="de">Hören, Teil 3</span></div>
+            <div class="mq"><svg class="ic"><use href="#i-pen-line"/></svg><span lang="de">Schreiben, Anrede</span></div>
+          </div>
+        </div>
+        <div class="mbox" id="mbox"><div class="mbox-h"><span>Мои ошибки</span><b id="mcount">0</b></div><div id="mlist"></div></div>
+      </div>
+      <h3 class="punch"><b>И&nbsp;экзамены</b> в&nbsp;Notion</h3>
+      <div class="gal stg">
+        <figure><img src="media/n-a0-exams.webp" alt="Раздел экзаменов" width="1400" height="920" loading="lazy"><figcaption>Экзамены по уровням</figcaption></figure>
+        <figure><img src="media/n-b1-calendar.webp" alt="Календарь" width="1400" height="920" loading="lazy"><figcaption>Календарь занятий</figcaption></figure>
+        <figure><img src="media/n-b1-grammar.webp" alt="Грамматика" width="1400" height="920" loading="lazy"><figcaption>Грамматика B1–C1</figcaption></figure>
+        <figure><img src="media/n-b1-materials.webp" alt="Материалы" width="1400" height="920" loading="lazy"><figcaption>Материалы</figcaption></figure>
+        <figure><img src="media/n-b1-progress.webp" alt="Прогресс" width="1400" height="920" loading="lazy"><figcaption>Прогресс B1–C1</figcaption></figure>
+        <figure><img src="media/n-a0-home.webp" alt="Главная A0–A2" width="1400" height="920" loading="lazy"><figcaption>Главная A0–A2</figcaption></figure>
+      </div>
+      <div class="rvw"><img class="tall" src="media/rv-dtz-b1-sertifikat.webp" alt="Отзыв с сертификатом DTZ B1" loading="lazy"></div>
+    </div>
+  </div>
+</section>
+
+<section class="sec" id="prices">
+  <div class="sheet gridb prices">
+    <svg class="ribbon" style="left:-5%;top:14%;width:28%;height:82%" viewBox="0 0 300 700" preserveAspectRatio="none" aria-hidden="true"><path class="rbd" pathLength="1" d="M-60 40C220 30 300 190 170 360 90 470 -30 610 60 760" stroke-width="84"/></svg>
+    <div class="wrap">
+      <h2 class="h c mega"><b>Один платёж.</b> Страховка от хаоса</h2>
+      <p class="sub c">Без подписки. Доступ навсегда, обновления бесплатно.</p>
+      <div class="tr rec">
+        <div><p class="tk-t">Вся платформа A0–C1</p><div class="bc" data-bc="31"></div></div>
+        <div><span class="recl">Рекомендую</span><div class="tk-r"><span class="tk-tag"><svg class="ic"><use href="#i-gift"/></svg>Бонус: A0–A2 на украинском</span><span class="tk-p">30 €<s>40 €</s></span></div><div style="margin-top:20px"><a class="cta" href="https://app.lava.top/801303618?tabId=products&sort=published" target="_blank" rel="noopener"><b>Купить платформу</b><i><svg class="ic"><use href="#i-arrow-up-right"/></svg></i></a></div></div>
+      </div>
+      <div class="tr">
+        <div><p class="tk-t">Платформа A0–A2</p><div class="bc" data-bc="43"></div></div>
+        <div><div class="tk-r"><span class="tk-tag"><svg class="ic"><use href="#i-graduation-cap"/></svg>С&nbsp;нуля до A2</span><span class="tk-p">20 €</span></div><div style="margin-top:20px"><a class="cta" href="https://app.lava.top/801303618?tabId=products&sort=published" target="_blank" rel="noopener"><b>Купить A0–A2</b><i><svg class="ic"><use href="#i-arrow-up-right"/></svg></i></a></div></div>
+      </div>
+      <div class="tr">
+        <div><p class="tk-t">Платформа B1–C1</p><div class="bc" data-bc="59"></div></div>
+        <div><div class="tk-r"><span class="tk-tag"><svg class="ic"><use href="#i-chart-line"/></svg>От B1 до C1</span><span class="tk-p">20 €</span></div><div style="margin-top:20px"><a class="cta" href="https://app.lava.top/801303618?tabId=products&sort=published" target="_blank" rel="noopener"><b>Купить B1–C1</b><i><svg class="ic"><use href="#i-arrow-up-right"/></svg></i></a></div></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="sec">
+  <div class="wrap plain">
+    <div class="fq">
+      <h2 class="h mega">Часто задаваемые <b>вопросы</b></h2>
+      <div class="fq-l" id="fq2">
+        <div class="fqi open"><button type="button" aria-expanded="true"><span>Это подписка?</span><i><svg class="ic"><use href="#i-chevron-down"/></svg></i></button><div class="fqa"><div><p>Нет. Платишь один раз. Доступ остаётся навсегда, обновления бесплатные.</p></div></div></div>
+        <div class="fqi"><button type="button" aria-expanded="false"><span>Я&nbsp;только начинаю. Подойдёт?</span><i><svg class="ic"><use href="#i-chevron-down"/></svg></i></button><div class="fqa"><div><p>Да. Платформа начинается с&nbsp;A0. Порядок тем уже выстроен.</p></div></div></div>
+        <div class="fqi"><button type="button" aria-expanded="false"><span>Где это работает?</span><i><svg class="ic"><use href="#i-chevron-down"/></svg></i></button><div class="fqa"><div><p>В&nbsp;Notion, на телефоне и&nbsp;ноутбуке. В&nbsp;приложении работает и&nbsp;без интернета.</p></div></div></div>
+        <div class="fqi"><button type="button" aria-expanded="false"><span>Есть подготовка к&nbsp;экзаменам?</span><i><svg class="ic"><use href="#i-chevron-down"/></svg></i></button><div class="fqa"><div><p>Да. Goethe, telc и&nbsp;DTZ, ÖSD. Уровни A1–C2, все модули и&nbsp;пробники с&nbsp;разбором.</p></div></div></div>
+      </div>
+    </div>
+    <div class="cont" style="margin-top:60px">
+      <div class="contl"><img class="o float" src="media/x-heads.webp" alt="" width="340" height="340" loading="lazy" style="width:min(70%,300px)"></div>
+      <div class="contr">
+        <h2 class="h" style="font-size:clamp(38px,4.8vw,70px)">Контакты</h2>
+        <a class="cr" href="https://t.me/stellasdeutsch" target="_blank" rel="noopener"><i><svg class="ic"><use href="#i-send"/></svg></i><span><b>Telegram</b><span>@stellasdeutsch</span></span></a>
+        <a class="cr" href="https://app.lava.top/801303618?tabId=products&sort=published" target="_blank" rel="noopener"><i style="background:var(--red)"><svg class="ic"><use href="#i-credit-card"/></svg></i><span><b>Оплата</b><span>Страница покупки платформы</span></span></a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="sec">
+  <div class="sheet gridb">
+    <svg class="ribbon" style="right:-3%;top:18%;width:42%;height:92%" viewBox="0 0 500 700" preserveAspectRatio="none" aria-hidden="true"><path class="rbd" pathLength="1" d="M520 60C290 10 170 220 300 350 390 440 470 560 380 780" stroke-width="84"/></svg>
+    <div class="wrap fin">
+      <div>
+        <h2 class="h mega">Забери <span class="hw">всю платформу</span><br><b>один раз</b> и&nbsp;навсегда</h2>
+        <p class="sub" style="max-width:32ch">Страховка от немецкого, которую не надо продлевать.</p>
+        <div style="margin-top:28px"><a class="cta" href="https://app.lava.top/801303618?tabId=products&sort=published" target="_blank" rel="noopener"><b>Купить за 30 €</b><i><svg class="ic"><use href="#i-arrow-up-right"/></svg></i></a></div>
+      </div>
+      <img class="o par" src="media/mock-laptop.webp" alt="Ноутбук с платформой Stellas: раздел больница и звонок в страховую" width="1100" height="733" loading="lazy">
+    </div>
+  </div>
+</section>
+
+<aside class="dock" id="dock" aria-hidden="true">
+  <p><b>A0–C1 за 30 €</b>Один раз. Навсегда</p>
+  <a class="cta sm" tabindex="-1" href="https://app.lava.top/801303618?tabId=products&sort=published" target="_blank" rel="noopener"><b>Купить</b><i><svg class="ic"><use href="#i-arrow-up-right"/></svg></i></a>
+</aside>
+
+</main>
+
+<footer class="ft">
+  <p>Источники</p>
+  <div class="ft-s">
+    <a class="src" href="https://www.gesetze-im-internet.de/vvg_2008/__193.html" target="_blank" rel="noopener"><svg class="ic"><use href="#i-file-text"/></svg>§ 193 VVG</a>
+    <a class="src" href="https://www.gesetze-im-internet.de/bgb/__823.html" target="_blank" rel="noopener"><svg class="ic"><use href="#i-file-text"/></svg>§ 823 BGB</a>
+    <a class="src" href="https://www.vdek.com/politik/was-aendert-sich/gesundheitswesen-2026/" target="_blank" rel="noopener"><svg class="ic"><use href="#i-file-text"/></svg>vdek 2026</a>
+    <a class="src" href="https://www.verbraucherzentrale.de/wissen/geld-versicherungen/weitere-versicherungen/private-haftpflichtversicherung-ein-absolutes-muss-fuer-alle-13891" target="_blank" rel="noopener"><svg class="ic"><use href="#i-file-text"/></svg>Verbraucherzentrale</a>
+    <a class="src" href="https://www.test.de/Vergleich-Haftpflichtversicherung-4775777-5632797/" target="_blank" rel="noopener"><svg class="ic"><use href="#i-file-text"/></svg>Stiftung Warentest</a>
+  </div>
+  <p>Stellas Deutsch. Это объяснение, а&nbsp;не страховая консультация. Условия меняются, поэтому перед договором проверяй актуальные правила.</p>
+</footer>
+<script>
+function krInit(){
+  var reduce = window.matchMedia && matchMedia('(prefers-reduced-motion: reduce)').matches;
+  var G = window.gsap && window.ScrollTrigger ? window.gsap : null;
+  if(G){ try{ G.registerPlugin(ScrollTrigger); window.SplitText && G.registerPlugin(SplitText); window.MotionPathPlugin && G.registerPlugin(MotionPathPlugin); }catch(e){ G = null; } }
+  if(G){ document.documentElement.classList.add('gs'); ScrollTrigger.config({ignoreMobileResize:true}); }
+  var ST = G && window.SplitText, MP = G && window.MotionPathPlugin;
+  function $(s,r){ return (r||document).querySelector(s); }
+  function $$(s,r){ return Array.prototype.slice.call((r||document).querySelectorAll(s)); }
+  function nb(t){ return t.replace(/(^|[\s(«])([вкосуиаяВКОСУИАЯ]) /g, '$1$2 '); }
+  function ic(n){ return '<svg class="ic"><use href="#i-'+n+'"/></svg>'; }
+  /* dynamic images, listed for build.py: media/x-coffee.webp media/x-phone.webp media/x-clip.webp media/x-stamp.webp media/x-docs.webp media/x-card.webp media/x-tv.webp */
+
+  /* speech */
+  var tts = 'speechSynthesis' in window, deVoice = null;
+  if(!tts) document.documentElement.classList.add('no-tts');
+  function pick(){ try{ var v = speechSynthesis.getVoices(); deVoice = v.find(function(x){return /^de/i.test(x.lang)}) || null; }catch(e){} }
+  if(tts){ pick(); try{ speechSynthesis.onvoiceschanged = pick; }catch(e){} }
+  function say(t, btn){ if(!tts||!t) return; try{ speechSynthesis.cancel(); var u = new SpeechSynthesisUtterance(t); u.lang='de-DE'; u.rate=.88; if(deVoice) u.voice=deVoice; if(btn){ btn.classList.add('on'); u.onend=u.onerror=function(){ btn.classList.remove('on'); }; } speechSynthesis.speak(u); }catch(e){} }
+  document.addEventListener('click', function(e){ var b = e.target.closest('[data-say]'); if(b) say(b.dataset.say, b.classList.contains('say') ? b : null); });
+  function whenVisible(el, on, off, th){ if(!el) return; if(!('IntersectionObserver' in window)){ on(); return; } new IntersectionObserver(function(es){ es.forEach(function(en){ en.isIntersecting ? on() : (off && off()); }); }, {threshold:th||.25}).observe(el); }
+  function tabs(host, items, cb){
+    host.innerHTML = items.map(function(t,i){ return '<button type="button" data-i="'+i+'">'+t+'</button>'; }).join('');
+    var bs = $$('button', host);
+    function set(i, first){ bs.forEach(function(b,k){ b.classList.toggle('on', k===i); b.setAttribute('aria-pressed', k===i); }); cb(i, first); }
+    bs.forEach(function(b){ b.onclick = function(){ set(+b.dataset.i); }; });
+    set(0, true); return set;
+  }
+
+  /* menu */
+  (function(){
+    var m = $('#menu'), o = $('#menuO'), x = $('#menuX');
+    function close(){ m.classList.remove('open'); o.focus({preventScroll:true}); }
+    o.onclick = function(){ m.classList.add('open'); x.focus({preventScroll:true}); if(G && !reduce) G.from('.menu-c', {y:-30, duration:.4, ease:'back.out(1.8)'}); };
+    x.onclick = close;
+    m.addEventListener('click', function(e){ if(e.target===m || e.target.closest('a')) close(); });
+    document.addEventListener('keydown', function(e){ if(e.key==='Escape' && m.classList.contains('open')) close(); });
+  })();
+
+  /* FAQ */
+  $$('.fq-l').forEach(function(l){
+    var items = $$('.fqi', l);
+    items.forEach(function(it){ $('button', it).onclick = function(){ var was = it.classList.contains('open'); items.forEach(function(x){ x.classList.remove('open'); $('button',x).setAttribute('aria-expanded','false'); }); if(!was){ it.classList.add('open'); $('button',it).setAttribute('aria-expanded','true'); } }; });
+  });
+
+  /* barcodes */
+  $$('.bc').forEach(function(b){
+    var s = +b.dataset.bc || 3, h = '';
+    for(var i=0;i<19;i++){ s = (s*31+7)%97; h += '<i style="width:'+(2+s%5)*1.1+'%"></i>'; }
+    b.innerHTML = h;
+    if(G && !reduce) G.from($$('i',b), {scaleY:.15, duration:.55, ease:'back.out(2)', stagger:.03, scrollTrigger:{trigger:b, start:'top 90%', once:true}});
+  });
+
+  /* ribbons */
+  (function(){
+    var rs = $$('.ribbon path');
+    rs.forEach(function(p){ p.style.strokeDasharray = '1'; });
+    if(!G || reduce){ rs.forEach(function(p){ p.style.strokeDashoffset = '0'; }); return; }
+    var r0 = $('#rb0'); r0.style.strokeDashoffset = '1';
+    G.to(r0, {strokeDashoffset:0, duration:1.5, ease:'power2.inOut', delay:.1});
+    $$('.rbd').forEach(function(p){
+      p.style.strokeDashoffset = '1';
+      G.to(p, {strokeDashoffset:0, ease:'none', scrollTrigger:{trigger:p.closest('svg').parentNode, start:'top 88%', end:'top 18%', scrub:.5}});
+    });
+    var fr = $('#flrb'); if(fr){ fr.style.strokeDashoffset = '1'; }
+  })();
+
+  /* reveal */
+  if(G && !reduce){
+    $$('.mega').forEach(function(h){
+      var t = h;
+      if(ST){ try{ t = new SplitText(h, {type:'words', wordsClass:'wd'}).words; }catch(e){} }
+      G.from(t, {yPercent:32, duration:.7, ease:'back.out(1.7)', stagger:.035, scrollTrigger:{trigger:h, start:'top 90%', once:true}});
+    });
+    $$('.stg').forEach(function(g){ G.from(g.children, {y:40, duration:.7, ease:'power3.out', stagger:.08, scrollTrigger:{trigger:g, start:'top 88%', once:true}}); });
+    G.from('.hero h1', {y:26, duration:.8, ease:'power3.out'});
+    G.from('#heroP', {yPercent:9, duration:1.1, ease:'power3.out'});
+    G.to('#heroP', {yPercent:6, ease:'none', scrollTrigger:{trigger:'.hero', start:'top top', end:'bottom top', scrub:.5}});
+    G.to('#tp', {scaleX:1, ease:'none', scrollTrigger:{start:0, end:'max', scrub:.2}});
+    $$('.o').forEach(function(o){ if(o.closest('.fl-c')||o.closest('.hero')) return; G.from(o, {scale:.55, rotation:-12, duration:.85, ease:'back.out(1.9)', scrollTrigger:{trigger:o, start:'top 94%', once:true}}); });
+    $$('.float').forEach(function(f,i){ var t = G.to(f, {y:i%2?-13:12, rotation:i%2?3.5:-3.5, duration:2.7+i*.25, ease:'sine.inOut', yoyo:true, repeat:-1, paused:true}); whenVisible(f, function(){ t.play(); }, function(){ t.pause(); }, .05); });
+    $$('.par').forEach(function(m){ G.fromTo(m, {yPercent:6}, {yPercent:-4, ease:'none', scrollTrigger:{trigger:m, start:'top bottom', end:'bottom top', scrub:.5}}); });
+    $$('.gal figure').forEach(function(f,i){ G.fromTo(f, {rotation:i%2?3:-3, scale:.92}, {rotation:0, scale:1, ease:'none', scrollTrigger:{trigger:f, start:'top 98%', end:'top 64%', scrub:.3}}); });
+    ['#stack','#stack2'].forEach(function(s){ var c = $$('.tc', $(s)); G.from(c, {y:80, x:function(i){ return i%2?90:-90; }, rotation:function(i){ return i%2?18:-18; }, duration:.9, ease:'back.out(1.5)', stagger:.12, scrollTrigger:{trigger:s, start:'top 84%', once:true}}); });
+    /* chat: bubbles arrive one after another */
+    var bubs = $$('#chat .bub');
+    G.from(bubs, {y:34, scale:.88, transformOrigin:function(i){ return bubs[i].classList.contains('me')?'100% 100%':'0% 100%'; }, duration:.55, ease:'back.out(2)', stagger:.55, scrollTrigger:{trigger:'#chat', start:'top 80%', once:true}});
+    if(window.matchMedia('(hover:hover)').matches){
+      document.addEventListener('mousemove', function(e){ var c = e.target.closest && e.target.closest('.card,.sc,.arg,.ec'); if(!c) return; var r = c.getBoundingClientRect(), x = (e.clientX-r.left)/r.width-.5, y = (e.clientY-r.top)/r.height-.5; G.to(c, {rotationY:x*7, rotationX:-y*7, transformPerspective:900, duration:.4, overwrite:'auto'}); c.dataset.tilt='1'; });
+      document.addEventListener('mouseout', function(e){ var c = e.target.closest && e.target.closest('[data-tilt]'); if(c && (!e.relatedTarget || !c.contains(e.relatedTarget))) G.to(c, {rotationY:0, rotationX:0, duration:.5, overwrite:'auto'}); });
+    }
+  }
+
+  /* counters */
+  $$('.count').forEach(function(el){
+    var to = +el.dataset.to, dec = +(el.dataset.dec||0);
+    function txt(v){ return v.toFixed(dec).replace('.',','); }
+    if(!G||reduce){ el.textContent = txt(to); return; }
+    var o = {v:0}; G.to(o, {v:to, duration:1.5, ease:'power2.out', onUpdate:function(){ el.textContent = txt(o.v); }, scrollTrigger:{trigger:el, start:'top 92%', once:true}});
+  });
+
+  /* word trains */
+  (function(){
+    var W = [
+      {n:'Krankenkasse', p:['Kranken','Kasse'], art:'die', sw:'Krankenkasse', say:'die Krankenkasse', c:'krank плюс Kasse. Больной плюс касса. Последний вагон женский, значит die.'},
+      {n:'Haftpflicht', p:['Haft','Pflicht'], art:'die', sw:'Haftpflicht', say:'die Haftpflicht', c:'haften значит отвечать. Pflicht значит обязанность. Обязанность отвечать. Звучит как развод.'},
+      {n:'Весь поезд', p:['Haft','Pflicht','Versicherung'], art:'die', sw:'Haftpflichtversicherung', say:'die Haftpflichtversicherung', c:'Прицепляем ещё вагон. Страховка обязанности отвечать. Одно слово. Поезд без остановок.'}
+    ];
+    var bw = $('#bw'), res = $('#bres'), cap = $('#bcap'), t = null, cur = 0;
+    function draw(i, anim){
+      cur = i; var w = W[i];
+      bw.innerHTML = w.p.map(function(p,k){ return (k?'<span class="plus">+</span>':'')+'<span class="blk'+(k===w.p.length-1?' last':'')+'">'+p+'</span>'; }).join('');
+      res.innerHTML = '<em>'+w.art+'</em> <b>'+w.sw+'</b>';
+      cap.textContent = nb(w.c);
+      $('#bsay').dataset.say = w.say;
+      if(anim && G && !reduce){
+        var c = $$('.blk', bw);
+        G.fromTo(c, {x:function(i){ return -160*(c.length-i); }, rotation:-5}, {x:0, rotation:0, duration:.75, ease:'back.out(1.5)', stagger:.13, overwrite:true});
+        G.fromTo(res, {scale:.85}, {scale:1, duration:.55, delay:.5, ease:'back.out(2.2)', overwrite:true});
+      }
+    }
+    var set = tabs($('#wt'), W.map(function(w){ return w.n; }), function(i, first){ draw(i, !first); if(t && !first){ clearInterval(t); t='x'; } });
+    if(reduce) return;
+    whenVisible(bw, function(){ if(t) return; draw(cur, true); t = setInterval(function(){ set((cur+1)%W.length, false); t = t; }, 4200); }, function(){ if(t && t!=='x'){ clearInterval(t); t=null; } }, .4);
+  })();
+
+  /* phrase assembly */
+  (function(){
+    var P = [
+      {n:'Касса', w:[['Ich','n'],['bin','vb'],['bei','k'],['der AOK','d'],['versichert','vb']], ru:'Я застрахован в AOK. bei всегда с Dativ. die AOK превращается в der AOK.'},
+      {n:'Карта', w:[['Haben','vb'],['Sie','n'],['Ihre Karte','a'],['dabei','k']], q:1, ru:'Карта с собой? Что с собой? Akkusativ. У die форма не меняется. Редкая доброта.'},
+      {n:'Ущерб', w:[['Ich','n'],['melde','vb'],['den Schaden','a'],['meiner Versicherung','d']], ru:'Я сообщаю об ущербе своей страховой. Что? den Schaden. Кому? meiner Versicherung.'}
+    ];
+    var h = $('#phr'), cur = 0, played = false;
+    function run(anim){
+      var p = P[cur];
+      h.innerHTML = p.w.map(function(x){ return '<span class="pw '+x[1]+'">'+x[0]+'</span>'; }).join('');
+      $('#prus').textContent = nb(p.ru);
+      $('#psay').dataset.say = p.w.map(function(x){ return x[0]; }).join(' ')+(p.q?'?':'.');
+      if(anim && G && !reduce){ var c = $$('.pw',h), W = Math.min(h.offsetWidth/2-60,240); G.fromTo(c, {x:function(){ return G.utils.random(-W,W); }, y:function(){ return G.utils.random(-80,80); }, rotation:function(){ return G.utils.random(-22,22); }}, {x:0,y:0,rotation:0,duration:.7,ease:'back.out(1.6)',stagger:.13,overwrite:true}); }
+    }
+    tabs($('#pt'), P.map(function(x){ return x.n; }), function(i, first){ cur=i; run(!first); });
+    $('#prep').onclick = function(){ run(true); };
+    whenVisible(h, function(){ if(!played){ played=true; run(true); } }, null, .5);
+  })();
+
+  /* damage flow */
+  (function(){
+    var S = [
+      ['Чужое сломано','Спокойно. Сначала извинись. Это бесплатно.','x-coffee','Das tut mir leid. Das war ein Versehen.','Мне жаль. Это случайно.'],
+      ['Скажи про страховку','Запиши, что случилось. Сфотографируй. Память подведёт, телефон нет.','x-phone','Ich bin haftpflichtversichert.','У меня есть страховка ответственности.'],
+      ['Сообщи страховой','Не тяни. Письмо или звонок. Шаблон ниже, в письме с минами.','x-clip','Ich melde den Schaden meiner Versicherung.','Я сообщаю об ущербе страховой.'],
+      ['Страховая проверяет','Она решает, должен ли ты вообще платить. Поэтому вину заранее не признавай.','x-stamp','Wer ist schuld?','Кто виноват?'],
+      ['Платит или защищает','Требование законное, платит. Незаконное, защищает тебя за свой счёт.','x-docs','Der Schaden ist bezahlt.','Ущерб оплачен.']
+    ];
+    S.forEach(function(s){ var i = new Image(); i.src = 'media/'+s[2]+'.webp'; });
+    var w = $('#fl'), n = $('#fn'), h = $('#fh'), p = $('#fp'), bar = $('#fb'), im = $('#fi'), de = $('#fde'), ru = $('#fru'), sy = $('#fsay'), rb = $('#flrb'), cur = -1;
+    function set(i, sub){
+      if(i!==cur){ cur=i; n.textContent=i+1; h.textContent=nb(S[i][0]); p.textContent=nb(S[i][1]); im.src='media/'+S[i][2]+'.webp'; de.textContent=S[i][3]; ru.textContent=nb(S[i][4]); sy.dataset.say=S[i][3];
+        if(G&&!reduce){ G.fromTo(im,{scale:.55,rotation:-14},{scale:1,rotation:0,duration:.6,ease:'back.out(2.4)',overwrite:true}); G.fromTo([n,h],{y:14},{y:0,duration:.4,ease:'back.out(2)',overwrite:true}); } }
+      var pr = (i+sub)/5; bar.style.transform='scaleX('+pr+')'; if(rb) rb.style.strokeDashoffset = String(1-pr);
+    }
+    if(G&&!reduce){ set(0,0); ScrollTrigger.create({trigger:w,start:'top 18px',end:'bottom bottom',onUpdate:function(s){ var v=Math.min(4.999,s.progress*5); set(Math.floor(v), v-Math.floor(v)); }}); }
+    else { set(4,1); h.textContent='Пять шагов'; p.textContent = nb(S.map(function(s){ return s[0]; }).join(', ')+'.'); }
+  })();
+
+  /* contribution calculator: average 2026 rate, half paid by the employee, capped at 5 812,50 € */
+  (function(){
+    var r = $('#kr'), v = $('#kv'), b = $('#kb'), n = $('#kn'), BBG = 5812.5, RATE = .175/2;
+    function fmt(x){ return String(Math.round(x)); }
+    function draw(){ var g = +r.value, base = Math.min(g,BBG); v.textContent = fmt(base*RATE); b.textContent = String(g).replace(/\B(?=(\d{3})+$)/g,' '); n.textContent = g>BBG ? nb('Выше 5 812,50 € в месяц взнос уже не растёт. Потолок.') : nb('Твоя касса может брать чуть больше или меньше средней ставки.'); }
+    r.addEventListener('input', draw); draw();
+    if(G&&!reduce){ var o={g:1400}; G.to(o,{g:3000,duration:1.6,ease:'power2.out',onUpdate:function(){ r.value=Math.round(o.g/50)*50; draw(); },scrollTrigger:{trigger:r,start:'top 86%',once:true}}); }
+  })();
+
+  /* error cards */
+  (function(){ var cs = $$('#errs .ec'), t=null, on=false; function flip(){ on=!on; cs.forEach(function(c,i){ setTimeout(function(){ c.classList.toggle('flip',on); },i*110); }); } if(reduce){ cs.forEach(function(c){ c.classList.add('flip'); }); return; } whenVisible($('#errs'),function(){ if(t) return; setTimeout(flip,800); t=setInterval(flip,4200); },function(){ clearInterval(t); t=null; },.1); })();
+
+  /* exercise */
+  (function(){
+    var T = ['Sehr geehrte Damen und Herren, ich bin seit zwei Jahren bei ',{w:'die',r:'der',k:0},' Versicherung. Gestern habe ich ',{w:'mit Absicht',r:'aus Versehen',k:1},' den Fernseher meines ',{d:'Nachbarn'},' beschädigt. Ich ',{d:'möchte'},' ',{w:'der',r:'den',k:2},' Schaden melden. Bitte prüfen Sie meine ',{w:'Haftplichtversicherung',r:'Haftpflichtversicherung',k:3},'. Ich ',{d:'warte'},' auf ',{w:'ihre',r:'Ihre',k:4},' Antwort.'];
+    var A = ['die → der. bei всегда с Dativ. die Versicherung становится der Versicherung.','mit Absicht → aus Versehen. Нарочно страховая не платит. Лучше случайно.','der → den. melden требует Akkusativ. der Schaden становится den Schaden.','Haftplicht → Haftpflicht. Потерялась f. В Pflicht их нельзя терять.','ihre → Ihre. Вежливое Ihre всегда с большой. Страховая обидится.'];
+    var box=$('#lett'), an=$('#anss'), n=0, done={};
+    box.innerHTML = T.map(function(x){ if(typeof x==='string') return x; return x.d?'<button class="tok" type="button" data-d="1">'+x.d+'</button>':'<button class="tok" type="button" data-k="'+x.k+'">'+x.w+'</button>'; }).join('');
+    an.innerHTML = A.map(function(a,i){ return '<div class="ans" data-a="'+i+'">'+ic('lock')+'<span>'+(i+1)+'. Мина спрятана</span></div>'; }).join('');
+    var map = T.filter(function(x){ return x.k!==undefined; });
+    function open(k){ if(done[k]) return; done[k]=1; n++; var b=$('.tok[data-k="'+k+'"]',box), it=map.filter(function(x){ return x.k===k; })[0]; b.textContent=it.r; b.classList.add('ok'); b.disabled=true; var row=$('.ans[data-a="'+k+'"]',an); row.classList.add('on'); row.innerHTML=ic('circle-check')+'<span>'+nb(A[k])+'</span>'; $('#exn').textContent=n; if(G&&!reduce) G.fromTo(b,{scale:.7},{scale:1,duration:.55,ease:'elastic.out(1,.45)'}); if(n===5) $('#extr').hidden=false; }
+    box.addEventListener('click',function(e){ var b=e.target.closest('.tok'); if(!b) return; if(b.dataset.k!==undefined){ open(+b.dataset.k); return; } b.classList.add('nope'); setTimeout(function(){ b.classList.remove('nope'); },900); if(G&&!reduce) G.fromTo(b,{x:-5},{x:0,duration:.45,ease:'elastic.out(1.2,.2)'}); });
+    $('#exshow').onclick=function(){ [0,1,2,3,4].forEach(open); };
+    $('#exsay').dataset.say='Sehr geehrte Damen und Herren, ich bin seit zwei Jahren bei der Versicherung. Gestern habe ich aus Versehen den Fernseher meines Nachbarn beschädigt. Ich möchte den Schaden melden. Bitte prüfen Sie meine Haftpflichtversicherung. Ich warte auf Ihre Antwort.';
+  })();
+
+  /* quiz */
+  var Q=[
+    {q:'___ Krankenkasse',o:['Der','Die','Das'],c:1,x:'Последний вагон решает. die Kasse, значит die Krankenkasse.',de:1},
+    {q:'Ich bin bei ___ AOK versichert.',o:['die','der','den'],c:1,x:'bei всегда с Dativ. die AOK становится der AOK.',de:1},
+    {q:'Haftpflicht платит за ___',o:['твой разбитый телефон','чужой разбитый телефон','твою простуду'],c:1,x:'Только чужой ущерб. Твой телефон остаётся твоей драмой.'},
+    {q:'Половину взноса работника в кассу платит ___',o:['работодатель','государство','сосед'],c:0,x:'Работник и работодатель делят ставку пополам. Сосед занят телевизором.'},
+    {q:'Ich habe ___ deinen Fernseher beschädigt.',o:['mit Absicht','aus Versehen','krank'],c:1,x:'aus Versehen значит случайно. Умысел страховая не оплачивает.',de:1},
+    {q:'Медицинская страховка в Германии ___',o:['по желанию','только для работающих','обязательна для всех, кто здесь живёт'],c:2,x:'Это § 193 VVG. Живёшь в Германии, значит должна быть.'}
+  ];
+  var qz=$('#qz'),qi=0,res=[];
+  function bar(){ return '<div class="qbar">'+Q.map(function(_,i){ return '<i class="'+(res[i]===true?'ok':res[i]===false?'bad':i===qi?'cur':'')+'"></i>'; }).join('')+'</div>'; }
+  function drawQ(){ var it=Q[qi]; qz.innerHTML=bar()+'<p class="qn">Вопрос '+(qi+1)+' из '+Q.length+'</p><p class="qq">'+it.q.replace('___','<u id="blank">___</u>')+'</p><div class="qo">'+it.o.map(function(o,i){ return '<button type="button" data-i="'+i+'">'+o+'</button>'; }).join('')+'</div><div class="qx" id="qx">'+ic('brain')+'<span>Выбери вариант. Агент подождёт.</span></div>'; $$('.qo button',qz).forEach(function(b){ b.onclick=function(){ answer(+b.dataset.i); }; }); if(G&&!reduce) G.from($$('.qo button',qz),{y:18,duration:.45,ease:'back.out(2)',stagger:.06}); }
+  function conf(n){ if(!G||reduce) return; var c=['#F01010','#1726CC','#222226']; for(var i=0;i<n;i++){ var e=document.createElement('i'); e.className='conf'; e.style.background=c[i%3]; qz.appendChild(e); G.fromTo(e,{x:0,y:0,rotation:0},{x:G.utils.random(-260,260),y:G.utils.random(-200,170),rotation:G.utils.random(-540,540),opacity:0,duration:G.utils.random(1,1.7),ease:'power3.out',onComplete:(function(x){ return function(){ x.remove(); }; })(e)}); } }
+  function answer(i){ var it=Q[qi],ok=i===it.c; res[qi]=ok; $$('.qo button',qz).forEach(function(b){ b.disabled=true; var k=+b.dataset.i; if(k===it.c) b.classList.add('ok'); else if(k===i) b.classList.add('bad'); }); $('#blank').textContent=it.o[it.c]; $('#qx').innerHTML=ic(ok?'circle-check':'circle-x')+'<span><b>'+(ok?'Верно.':'Мимо.')+'</b> '+nb(it.x)+'</span>'; if(ok) conf(12); if(it.de) say(it.q.replace('___',it.o[it.c])); $('.qbar',qz).outerHTML=bar(); var d=document.createElement('div'); d.className='qnext'; d.innerHTML='<button class="cta sm" type="button"><b>'+(qi<Q.length-1?'Дальше':'Результат')+'</b><i>'+ic('arrow-up-right')+'</i></button>'; $('button',d).onclick=function(){ qi++; qi<Q.length?drawQ():done(); }; qz.appendChild(d); }
+  function done(){ var s=res.filter(Boolean).length, msg=s===6?'Шесть из шести. Агент тебя боится.':s>=4?'Почти. Загляни к вагонам и к bei. Там все и падают.':'Нормально. Пересдача бесплатная.'; qz.innerHTML=bar()+'<div class="qres"><div class="score">'+s+'/6</div><p class="qq">'+nb(msg)+'</p><div style="display:flex;justify-content:center;gap:12px;flex-wrap:wrap;margin-top:20px"><button type="button" class="cta sm" id="again"><b>Ещё раз</b><i>'+ic('repeat')+'</i></button><a class="cta sm" href="#platform"><b>Ещё 340+ тем</b><i>'+ic('arrow-up-right')+'</i></a></div></div>'; $('#again').onclick=function(){ qi=0;res=[];drawQ(); }; if(G&&!reduce){ G.from('.qres .score',{scale:.3,rotation:-16,duration:1,ease:'elastic.out(1,.4)'}); conf(s*7); } }
+  drawQ();
+
+  /* my mistakes */
+  (function(){ var m=$('#mist'); if(!m) return; var qs=$$('.mq',m),list=$('#mlist'),cnt=$('#mcount'),t=null,step=0; function reset(){ step=0; list.innerHTML=''; cnt.textContent='0'; qs.forEach(function(q){ q.classList.remove('x'); }); } function add(q){ var r=document.createElement('div'); r.className='mb-r'; r.lang='de'; r.textContent=q.textContent; list.appendChild(r); cnt.textContent=list.children.length; return r; } if(reduce||!G){ qs.forEach(function(q){ q.classList.add('x'); add(q); }); return; } function tick(){ if(step>=qs.length){ reset(); return; } var q=qs[step++]; q.classList.add('x'); var h=m.getBoundingClientRect(),a=q.getBoundingClientRect(),b=$('#mbox').getBoundingClientRect(),f=document.createElement('span'); f.className='mflyer'; f.innerHTML=ic('circle-x'); m.appendChild(f); var s={x:a.right-h.left-50,y:a.top-h.top+6},e={x:b.left-h.left+b.width/2-17,y:b.top-h.top+70}; G.fromTo(f,{x:s.x,y:s.y},MP?{motionPath:{path:[s,{x:(s.x+e.x)/2,y:Math.min(s.y,e.y)-70},e],curviness:1.3},duration:.9,ease:'power2.inOut',onComplete:function(){ f.remove(); var r=add(q); G.from(r,{scale:.7,duration:.45,ease:'back.out(2.4)'}); }}:{x:e.x,y:e.y,duration:.7,onComplete:function(){ f.remove(); add(q); }}); } whenVisible(m,function(){ if(t) return; tick(); t=setInterval(tick,1700); },function(){ clearInterval(t); t=null; reset(); },.3); })();
+
+  /* video */
+  var pio='IntersectionObserver' in window?new IntersectionObserver(function(es){ es.forEach(function(en){ if(en.isIntersecting){ var v=en.target; if(v.dataset.poster) v.poster=v.dataset.poster; pio.unobserve(v); } }); },{rootMargin:'900px 0px'}):null;
+  $$('video.vid').forEach(function(v){ v.muted=true; pio?pio.observe(v):(v.poster=v.dataset.poster); if(reduce) return; whenVisible(v,function(){ try{ v.preload='auto'; var p=v.play(); p&&p.catch(function(){}); }catch(e){} },function(){ try{ v.pause(); }catch(e){} }); });
+
+  /* dock */
+  var dock=$('#dock'),ps=$('.prices');
+  if(dock&&ps&&'IntersectionObserver' in window){ var past=false,at=false; function upd(){ var s=past&&!at; dock.classList.toggle('show',s); dock.setAttribute('aria-hidden',!s); $('a',dock).tabIndex=s?0:-1; } new IntersectionObserver(function(es){ es.forEach(function(en){ past=!en.isIntersecting&&en.boundingClientRect.top<0; upd(); }); }).observe($('.hero')); new IntersectionObserver(function(es){ es.forEach(function(en){ at=en.isIntersecting; upd(); }); }).observe(ps); }
+
+  if(G){ window.addEventListener('load',function(){ ScrollTrigger.refresh(); }); if(document.fonts&&document.fonts.ready) document.fonts.ready.then(function(){ ScrollTrigger.refresh(); }); }
+}
+if(document.readyState==='loading') document.addEventListener('DOMContentLoaded',krInit); else krInit();
+</script>
+
+</body>
+</html>
